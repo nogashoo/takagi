@@ -1,0 +1,46 @@
+// color
+$black: #000000;
+$white: #ffffff;
+$gray: #f2f2f2;
+$white-blue1: #e4f7ff;
+$white-blue: #d4f2ff;
+$blue1: #9ad5ff;
+$blue: #d4f2ff;
+$blue-line: #5f6fff;
+$yellow: #fff847;
+$red: #ff0000;
+
+$purple: rgba(151, 180, 255, 0.7);
+$lite-blue: rgba(231, 249, 255, 0.6);
+$lite-black: rgba(0, 0, 0, 0.5);
+$lite-red: rgba(#ff0000, 0.2);
+
+// style
+$base-font: "Hiragino Kaku Gothic ProN,sans-serif";
+$takagi-font: makinas-4-flat, sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+br {
+  margin: 0;
+  padding: 0;
+}
