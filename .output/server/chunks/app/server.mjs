@@ -571,7 +571,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/completed-730542d5.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/completed-85d7ddbb.mjs').then((m) => m.default || m)
   },
   {
     name: "confirm",
@@ -595,7 +595,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-ec3672ca.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-454391ae.mjs').then((m) => m.default || m)
   },
   {
     name: "lesson",

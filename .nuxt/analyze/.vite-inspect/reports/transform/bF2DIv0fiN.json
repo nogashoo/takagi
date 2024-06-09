@@ -4,38 +4,38 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, unref as _unref, toDisplayString as _toDisplayString, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-687e8ebd\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"contents\" }\nconst _hoisted_2 = { class: \"form-area\" }\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"お名前(保護者様)\")\n], -1))\nconst _hoisted_4 = { class: \"input\" }\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"お名前(カタカナ)\")\n], -1))\nconst _hoisted_6 = { class: \"input\" }\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"お名前(お子様)\")\n], -1))\nconst _hoisted_8 = { class: \"input\" }\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"お名前(カタカナ)\")\n], -1))\nconst _hoisted_10 = { class: \"input\" }\nconst _hoisted_11 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"メールアドレス\")\n], -1))\nconst _hoisted_12 = { class: \"input\" }\nconst _hoisted_13 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"電話番号\")\n], -1))\nconst _hoisted_14 = { class: \"input\" }\nconst _hoisted_15 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"通われている学校\")\n], -1))\nconst _hoisted_16 = { class: \"input\" }\nconst _hoisted_17 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"学年\")\n], -1))\nconst _hoisted_18 = { class: \"label-list\" }\nconst _hoisted_19 = { class: \"form-other-area\" }\nconst _hoisted_20 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"学習状況や学習上の課題\")\n], -1))\nconst _hoisted_21 = { class: \"input\" }\nconst _hoisted_22 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"dt\", { class: \"item\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"title\" }, \"資料請求に関して\")\n], -1))\nconst _hoisted_23 = { class: \"input\" }\nconst _hoisted_24 = { class: \"button-area\" }\nconst _hoisted_25 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"戻る\", -1))\nconst _hoisted_26 = [\"src\"]\n\nimport { IMAGE } from \"~/common/image\";\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'confirm',\n  setup(__props) {\n\nconst { contactState, send } = useContact();\nconst router = useRouter();\n\nconst clickSend = async () => {\n  try {\n    await send();\n\n    router.push(\"/completed\");\n  } catch {\n    router.push(\"/details\");\n  }\n};\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Navigate = _resolveComponent(\"Navigate\")!\n  const _component_AppButton = _resolveComponent(\"AppButton\")!\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_Navigate, { from: \"confirm\" }),\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"dl\", _hoisted_2, [\n        _hoisted_3,\n        _createElementVNode(\"dd\", _hoisted_4, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).parentName), 1)\n        ]),\n        _hoisted_5,\n        _createElementVNode(\"dd\", _hoisted_6, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).parentNameKana), 1)\n        ]),\n        _hoisted_7,\n        _createElementVNode(\"dd\", _hoisted_8, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).childName), 1)\n        ]),\n        _hoisted_9,\n        _createElementVNode(\"dd\", _hoisted_10, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).childNameKana), 1)\n        ]),\n        _hoisted_11,\n        _createElementVNode(\"dd\", _hoisted_12, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).email), 1)\n        ]),\n        _hoisted_13,\n        _createElementVNode(\"dd\", _hoisted_14, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).phoneNumber), 1)\n        ]),\n        _hoisted_15,\n        _createElementVNode(\"dd\", _hoisted_16, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).schoolName), 1)\n        ]),\n        _hoisted_17,\n        _createElementVNode(\"dd\", _hoisted_18, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).grade) + \" 年\", 1)\n        ])\n      ]),\n      _createElementVNode(\"dl\", _hoisted_19, [\n        _hoisted_20,\n        _createElementVNode(\"dd\", _hoisted_21, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).messagAssignment), 1)\n        ]),\n        _hoisted_22,\n        _createElementVNode(\"dd\", _hoisted_23, [\n          _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).messageDocument), 1)\n        ])\n      ])\n    ]),\n    _createElementVNode(\"div\", _hoisted_24, [\n      _createVNode(_component_AppButton, {\n        title: \"送信する\",\n        onClick: clickSend\n      }),\n      _createVNode(_component_NuxtLink, {\n        class: \"back\",\n        to: \"/details\"\n      }, {\n        default: _withCtx(() => [\n          _hoisted_25,\n          _createElementVNode(\"img\", {\n            class: \"arrow\",\n            src: _unref(IMAGE).arrow\n          }, null, 8, _hoisted_26)\n        ]),\n        _: 1\n      })\n    ])\n  ], 64))\n}\n}\n\n})",
-      "start": 1717937987721,
-      "end": 1717937987721
+      "start": 1717938219339,
+      "end": 1717938219339
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937987721,
-      "end": 1717937987721,
+      "start": 1717938219339,
+      "end": 1717938219339,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937987721,
-      "end": 1717937987721,
+      "start": 1717938219339,
+      "end": 1717938219340,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937987721,
-      "end": 1717937987721,
+      "start": 1717938219340,
+      "end": 1717938219340,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937987721,
-      "end": 1717937987721,
+      "start": 1717938219340,
+      "end": 1717938219340,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, unref as _unref, toDisplayString as _toDisplayString, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-687e8ebd\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"contents\" };\nconst _hoisted_2 = { class: \"form-area\" };\nconst _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(保護者様)\")\n], -1));\nconst _hoisted_4 = { class: \"input\" };\nconst _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(カタカナ)\")\n], -1));\nconst _hoisted_6 = { class: \"input\" };\nconst _hoisted_7 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(お子様)\")\n], -1));\nconst _hoisted_8 = { class: \"input\" };\nconst _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(カタカナ)\")\n], -1));\nconst _hoisted_10 = { class: \"input\" };\nconst _hoisted_11 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"メールアドレス\")\n], -1));\nconst _hoisted_12 = { class: \"input\" };\nconst _hoisted_13 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"電話番号\")\n], -1));\nconst _hoisted_14 = { class: \"input\" };\nconst _hoisted_15 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"通われている学校\")\n], -1));\nconst _hoisted_16 = { class: \"input\" };\nconst _hoisted_17 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"学年\")\n], -1));\nconst _hoisted_18 = { class: \"label-list\" };\nconst _hoisted_19 = { class: \"form-other-area\" };\nconst _hoisted_20 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"学習状況や学習上の課題\")\n], -1));\nconst _hoisted_21 = { class: \"input\" };\nconst _hoisted_22 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"資料請求に関して\")\n], -1));\nconst _hoisted_23 = { class: \"input\" };\nconst _hoisted_24 = { class: \"button-area\" };\nconst _hoisted_25 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"戻る\", -1));\nconst _hoisted_26 = [\"src\"];\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"confirm\",\n  setup(__props) {\n    const { contactState, send } = useContact();\n    const router = useRouter();\n    const clickSend = async () => {\n      try {\n        await send();\n        router.push(\"/completed\");\n      } catch {\n        router.push(\"/details\");\n      }\n    };\n    return (_ctx, _cache) => {\n      const _component_Navigate = _resolveComponent(\"Navigate\");\n      const _component_AppButton = _resolveComponent(\"AppButton\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_Navigate, { from: \"confirm\" }),\n        _createElementVNode(\"div\", _hoisted_1, [\n          _createElementVNode(\"dl\", _hoisted_2, [\n            _hoisted_3,\n            _createElementVNode(\"dd\", _hoisted_4, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).parentName), 1)\n            ]),\n            _hoisted_5,\n            _createElementVNode(\"dd\", _hoisted_6, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).parentNameKana), 1)\n            ]),\n            _hoisted_7,\n            _createElementVNode(\"dd\", _hoisted_8, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).childName), 1)\n            ]),\n            _hoisted_9,\n            _createElementVNode(\"dd\", _hoisted_10, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).childNameKana), 1)\n            ]),\n            _hoisted_11,\n            _createElementVNode(\"dd\", _hoisted_12, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).email), 1)\n            ]),\n            _hoisted_13,\n            _createElementVNode(\"dd\", _hoisted_14, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).phoneNumber), 1)\n            ]),\n            _hoisted_15,\n            _createElementVNode(\"dd\", _hoisted_16, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).schoolName), 1)\n            ]),\n            _hoisted_17,\n            _createElementVNode(\"dd\", _hoisted_18, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).grade) + \" 年\", 1)\n            ])\n          ]),\n          _createElementVNode(\"dl\", _hoisted_19, [\n            _hoisted_20,\n            _createElementVNode(\"dd\", _hoisted_21, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).messagAssignment), 1)\n            ]),\n            _hoisted_22,\n            _createElementVNode(\"dd\", _hoisted_23, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).messageDocument), 1)\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_24, [\n          _createVNode(_component_AppButton, {\n            title: \"送信する\",\n            onClick: clickSend\n          }),\n          _createVNode(_component_NuxtLink, {\n            class: \"back\",\n            to: \"/details\"\n          }, {\n            default: _withCtx(() => [\n              _hoisted_25,\n              _createElementVNode(\"img\", {\n                class: \"arrow\",\n                src: _unref(IMAGE).arrow\n              }, null, 8, _hoisted_26)\n            ]),\n            _: 1\n          })\n        ])\n      ], 64);\n    };\n  }\n});\n",
-      "start": 1717937987721,
-      "end": 1717937987972,
+      "start": 1717938219340,
+      "end": 1717938219501,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -51,123 +51,123 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937987972,
-      "end": 1717937987972,
+      "start": 1717938219501,
+      "end": 1717938219501,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { useContact } from '/Users/nogamishota/takagi/src/composables/useContact.ts';\nimport { useRouter } from '#app/composables/router';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, unref as _unref, toDisplayString as _toDisplayString, withCtx as _withCtx, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-687e8ebd\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"contents\" };\nconst _hoisted_2 = { class: \"form-area\" };\nconst _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(保護者様)\")\n], -1));\nconst _hoisted_4 = { class: \"input\" };\nconst _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(カタカナ)\")\n], -1));\nconst _hoisted_6 = { class: \"input\" };\nconst _hoisted_7 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(お子様)\")\n], -1));\nconst _hoisted_8 = { class: \"input\" };\nconst _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"お名前(カタカナ)\")\n], -1));\nconst _hoisted_10 = { class: \"input\" };\nconst _hoisted_11 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"メールアドレス\")\n], -1));\nconst _hoisted_12 = { class: \"input\" };\nconst _hoisted_13 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"電話番号\")\n], -1));\nconst _hoisted_14 = { class: \"input\" };\nconst _hoisted_15 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"通われている学校\")\n], -1));\nconst _hoisted_16 = { class: \"input\" };\nconst _hoisted_17 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"学年\")\n], -1));\nconst _hoisted_18 = { class: \"label-list\" };\nconst _hoisted_19 = { class: \"form-other-area\" };\nconst _hoisted_20 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"学習状況や学習上の課題\")\n], -1));\nconst _hoisted_21 = { class: \"input\" };\nconst _hoisted_22 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"dt\", { class: \"item\" }, [\n  /* @__PURE__ */ _createElementVNode(\"span\", { class: \"title\" }, \"資料請求に関して\")\n], -1));\nconst _hoisted_23 = { class: \"input\" };\nconst _hoisted_24 = { class: \"button-area\" };\nconst _hoisted_25 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"戻る\", -1));\nconst _hoisted_26 = [\"src\"];\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"confirm\",\n  setup(__props) {\n    const { contactState, send } = useContact();\n    const router = useRouter();\n    const clickSend = async () => {\n      try {\n        await send();\n        router.push(\"/completed\");\n      } catch {\n        router.push(\"/details\");\n      }\n    };\n    return (_ctx, _cache) => {\n      const _component_Navigate = _resolveComponent(\"Navigate\");\n      const _component_AppButton = _resolveComponent(\"AppButton\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _createVNode(_component_Navigate, { from: \"confirm\" }),\n        _createElementVNode(\"div\", _hoisted_1, [\n          _createElementVNode(\"dl\", _hoisted_2, [\n            _hoisted_3,\n            _createElementVNode(\"dd\", _hoisted_4, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).parentName), 1)\n            ]),\n            _hoisted_5,\n            _createElementVNode(\"dd\", _hoisted_6, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).parentNameKana), 1)\n            ]),\n            _hoisted_7,\n            _createElementVNode(\"dd\", _hoisted_8, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).childName), 1)\n            ]),\n            _hoisted_9,\n            _createElementVNode(\"dd\", _hoisted_10, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).childNameKana), 1)\n            ]),\n            _hoisted_11,\n            _createElementVNode(\"dd\", _hoisted_12, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).email), 1)\n            ]),\n            _hoisted_13,\n            _createElementVNode(\"dd\", _hoisted_14, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).phoneNumber), 1)\n            ]),\n            _hoisted_15,\n            _createElementVNode(\"dd\", _hoisted_16, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).schoolName), 1)\n            ]),\n            _hoisted_17,\n            _createElementVNode(\"dd\", _hoisted_18, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).grade) + \" 年\", 1)\n            ])\n          ]),\n          _createElementVNode(\"dl\", _hoisted_19, [\n            _hoisted_20,\n            _createElementVNode(\"dd\", _hoisted_21, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).messagAssignment), 1)\n            ]),\n            _hoisted_22,\n            _createElementVNode(\"dd\", _hoisted_23, [\n              _createElementVNode(\"p\", null, _toDisplayString(_unref(contactState).messageDocument), 1)\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_24, [\n          _createVNode(_component_AppButton, {\n            title: \"送信する\",\n            onClick: clickSend\n          }),\n          _createVNode(_component_NuxtLink, {\n            class: \"back\",\n            to: \"/details\"\n          }, {\n            default: _withCtx(() => [\n              _hoisted_25,\n              _createElementVNode(\"img\", {\n                class: \"arrow\",\n                src: _unref(IMAGE).arrow\n              }, null, 8, _hoisted_26)\n            ]),\n            _: 1\n          })\n        ])\n      ], 64);\n    };\n  }\n});\n",
-      "start": 1717937987972,
-      "end": 1717937987974,
+      "start": 1717938219501,
+      "end": 1717938219505,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -180,15 +180,15 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219505,
+      "end": 1717938219505,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219505,
+      "end": 1717938219506,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -201,38 +201,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219506,
+      "end": 1717938219506,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219506,
+      "end": 1717938219506,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219506,
+      "end": 1717938219506,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219506,
+      "end": 1717938219506,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219506,
+      "end": 1717938219506,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937987974,
-      "end": 1717937987974,
+      "start": 1717938219506,
+      "end": 1717938219506,
       "order": "normal"
     }
   ]

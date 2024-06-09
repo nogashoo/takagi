@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n</script>\n\n<template>\n  <div class=\"recommend\">\n    <div class=\"title\">\n      <p class=\"text\">ニガテ科目を克服！成績ぐんぐんアップ！</p>\n      <div class=\"line\" />\n    </div>\n    <div class=\"details\">\n      <div class=\"text\">\n        <p>無料学習相談、体験授業実施中！</p>\n        <p>勉強のお困りごと・成績についてのことなど</p>\n        <p>お気楽にご相談ください！</p>\n      </div>\n      <div class=\"button\">\n        <NuxtLink to=\"/hoge\" class=\"reserve\"\n          ><p class=\"text\">無料学習相談&体験授業予約</p></NuxtLink\n        >\n        <a class=\"friend\" href=\"https://line.me/ti/p/xvK1fqfVqW\">\n          <img class=\"line-logo\" :src=\"IMAGE.line\" />\n          <p class=\"text\">友達追加</p>\n        </a>\n      </div>\n    </div>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.recommend {\n  background-color: #0401a8;\n  height: 320px;\n}\n\n.title {\n  display: flex;\n  flex-flow: column;\n  text-align: center;\n  max-width: 860px;\n  margin: auto;\n\n  > .text {\n    padding-top: 20px;\n    font-size: 40px;\n    color: $white;\n    text-shadow: 2px 2px 2px #555;\n    z-index: 2;\n  }\n  > .line {\n    content: \"\";\n    width: 100%;\n    height: 21px;\n    background-color: $yellow;\n    margin-top: -40px;\n    z-index: 1;\n  }\n}\n\n.details {\n  display: flex;\n  justify-content: space-between;\n  margin: 40px auto;\n\n  > .text {\n    font-size: 32px;\n    font-weight: bold;\n    color: $white;\n    padding-left: 150px;\n  }\n  > .button {\n    margin-right: 60px;\n\n    > .reserve {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: -10px;\n      background-color: #d2fff4;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .text {\n        color: $black;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n\n    > .friend {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: 30px;\n      background-color: #06c755;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .line-logo {\n        margin-right: 20px;\n      }\n\n      > .text {\n        color: $white;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n  }\n}\n</style>\n",
-      "start": 1717937988055,
-      "end": 1717937988066,
+      "result": "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n</script>\n\n<template>\n  <div class=\"recommend\">\n    <div class=\"title\">\n      <p class=\"text\">ニガテ科目を克服！成績ぐんぐんアップ！</p>\n      <div class=\"line\" />\n    </div>\n    <div class=\"details\">\n      <div class=\"text\">\n        <p>無料学習相談、体験授業実施中！</p>\n        <p>勉強のお困りごと・成績についてのことなど</p>\n        <p>お気楽にご相談ください！</p>\n      </div>\n      <div class=\"button\">\n        <NuxtLink to=\"\" class=\"reserve\"\n          ><p class=\"text\">無料学習相談&体験授業予約</p></NuxtLink\n        >\n        <a class=\"friend\" href=\"https://line.me/ti/p/xvK1fqfVqW\">\n          <img class=\"line-logo\" :src=\"IMAGE.line\" />\n          <p class=\"text\">友達追加</p>\n        </a>\n      </div>\n    </div>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.recommend {\n  background-color: #0401a8;\n  height: 320px;\n}\n\n.title {\n  display: flex;\n  flex-flow: column;\n  text-align: center;\n  max-width: 860px;\n  margin: auto;\n\n  > .text {\n    padding-top: 20px;\n    font-size: 40px;\n    color: $white;\n    text-shadow: 2px 2px 2px #555;\n    z-index: 2;\n  }\n  > .line {\n    content: \"\";\n    width: 100%;\n    height: 21px;\n    background-color: $yellow;\n    margin-top: -40px;\n    z-index: 1;\n  }\n}\n\n.details {\n  display: flex;\n  justify-content: space-between;\n  margin: 40px auto;\n\n  > .text {\n    font-size: 32px;\n    font-weight: bold;\n    color: $white;\n    padding-left: 150px;\n  }\n  > .button {\n    margin-right: 60px;\n\n    > .reserve {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: -10px;\n      background-color: #d2fff4;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .text {\n        color: $black;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n\n    > .friend {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: 30px;\n      background-color: #06c755;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .line-logo {\n        margin-right: 20px;\n      }\n\n      > .text {\n        color: $white;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n  }\n}\n</style>\n",
+      "start": 1717938219668,
+      "end": 1717938219895,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937988066,
-      "end": 1717937988066,
+      "start": 1717938219895,
+      "end": 1717938219895,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "import _sfc_main from \"/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=style&index=0&scoped=a40ab0e7&lang.scss\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-a40ab0e7\"]]);\n",
-      "start": 1717937988066,
-      "end": 1717937988071,
+      "result": "import _sfc_main from \"/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=style&index=0&scoped=db7b0127&lang.scss\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-db7b0127\"]]);\n",
+      "start": 1717938219895,
+      "end": 1717938219902,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219902,
+      "end": 1717938219902,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219902,
+      "end": 1717938219903,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219903,
+      "end": 1717938219903,
       "order": "normal"
     }
   ]

@@ -4,8 +4,8 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nimport { IMAGE } from \"~/common/image\";\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Header',\n  __ssrInlineRender: true,\n  setup(__props) {\n\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  _push(`<header${_ssrRenderAttrs(_mergeProps({ class: \"header\" }, _attrs))} data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/\",\n    class: \"logo\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img class=\"logo\"${\n          _ssrRenderAttr(\"src\", _unref(IMAGE).logo)\n        } data-v-6720485a${\n          _scopeId\n        }><img class=\"takagi\"${\n          _ssrRenderAttr(\"src\", _unref(IMAGE).takagi)\n        } data-v-6720485a${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            class: \"logo\",\n            src: _unref(IMAGE).logo\n          }, null, 8, [\"src\"]),\n          _createVNode(\"img\", {\n            class: \"takagi\",\n            src: _unref(IMAGE).takagi\n          }, null, 8, [\"src\"])\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<nav class=\"contents\" data-v-6720485a><ul class=\"list\" data-v-6720485a><li class=\"gnavi__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`高木塾について`)\n      } else {\n        return [\n          _createTextVNode(\"高木塾について\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<ul class=\"dropdown__lists\" data-v-6720485a><li class=\"dropdown__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`会社概要`)\n      } else {\n        return [\n          _createTextVNode(\"会社概要\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`授業料一覧`)\n      } else {\n        return [\n          _createTextVNode(\"授業料一覧\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/staff\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`スタッフ紹介`)\n      } else {\n        return [\n          _createTextVNode(\"スタッフ紹介\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></li><li class=\"gnavi__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`塾生の声`)\n      } else {\n        return [\n          _createTextVNode(\"塾生の声\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"gnavi__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`塾長のブログ`)\n      } else {\n        return [\n          _createTextVNode(\"塾長のブログ\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"gnavi__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`お問い合わせ`)\n      } else {\n        return [\n          _createTextVNode(\"お問い合わせ\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`<ul class=\"dropdown__lists\" data-v-6720485a><li class=\"dropdown__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`資料請求`)\n      } else {\n        return [\n          _createTextVNode(\"資料請求\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`採用情報`)\n      } else {\n        return [\n          _createTextVNode(\"採用情報\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    class: \"link\",\n    to: \"/\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`よくある質問`)\n      } else {\n        return [\n          _createTextVNode(\"よくある質問\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></li></ul></nav><div class=\"sns\" data-v-6720485a><a class=\"link\" href=\"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&amp;utm_source=qr\" data-v-6720485a><img class=\"instagram\"${\n    _ssrRenderAttr(\"src\", _unref(IMAGE).instagram)\n  } data-v-6720485a></a><a class=\"link\" href=\"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\" data-v-6720485a><img class=\"youtube\"${\n    _ssrRenderAttr(\"src\", _unref(IMAGE).youtube)\n  } data-v-6720485a></a></div></header>`)\n}\n}\n\n})",
-      "start": 1717937989405,
-      "end": 1717937989405,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "sourcemaps": {
         "version": 3,
         "sources": [
@@ -20,45 +20,45 @@
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989405,
-      "end": 1717937989405,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989405,
-      "end": 1717937989405,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989406,
-      "end": 1717937989406,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989406,
-      "end": 1717937989406,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937989406,
-      "end": 1717937989406,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937989406,
-      "end": 1717937989406,
+      "start": 1717938221212,
+      "end": 1717938221212,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Header\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      _push(`<header${_ssrRenderAttrs(_mergeProps({ class: \"header\" }, _attrs))} data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        to: \"/\",\n        class: \"logo\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`<img class=\"logo\"${_ssrRenderAttr(\"src\", _unref(IMAGE).logo)} data-v-6720485a${_scopeId}><img class=\"takagi\"${_ssrRenderAttr(\"src\", _unref(IMAGE).takagi)} data-v-6720485a${_scopeId}>`);\n          } else {\n            return [\n              _createVNode(\"img\", {\n                class: \"logo\",\n                src: _unref(IMAGE).logo\n              }, null, 8, [\"src\"]),\n              _createVNode(\"img\", {\n                class: \"takagi\",\n                src: _unref(IMAGE).takagi\n              }, null, 8, [\"src\"])\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`<nav class=\"contents\" data-v-6720485a><ul class=\"list\" data-v-6720485a><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`高木塾について`);\n          } else {\n            return [\n              _createTextVNode(\"高木塾について\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`<ul class=\"dropdown__lists\" data-v-6720485a><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`会社概要`);\n          } else {\n            return [\n              _createTextVNode(\"会社概要\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`授業料一覧`);\n          } else {\n            return [\n              _createTextVNode(\"授業料一覧\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/staff\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`スタッフ紹介`);\n          } else {\n            return [\n              _createTextVNode(\"スタッフ紹介\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li></ul></li><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`塾生の声`);\n          } else {\n            return [\n              _createTextVNode(\"塾生の声\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`塾長のブログ`);\n          } else {\n            return [\n              _createTextVNode(\"塾長のブログ\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`お問い合わせ`);\n          } else {\n            return [\n              _createTextVNode(\"お問い合わせ\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`<ul class=\"dropdown__lists\" data-v-6720485a><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`資料請求`);\n          } else {\n            return [\n              _createTextVNode(\"資料請求\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`採用情報`);\n          } else {\n            return [\n              _createTextVNode(\"採用情報\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`よくある質問`);\n          } else {\n            return [\n              _createTextVNode(\"よくある質問\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li></ul></li></ul></nav><div class=\"sns\" data-v-6720485a><a class=\"link\" href=\"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&amp;utm_source=qr\" data-v-6720485a><img class=\"instagram\"${_ssrRenderAttr(\"src\", _unref(IMAGE).instagram)} data-v-6720485a></a><a class=\"link\" href=\"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\" data-v-6720485a><img class=\"youtube\"${_ssrRenderAttr(\"src\", _unref(IMAGE).youtube)} data-v-6720485a></a></div></header>`);\n    };\n  }\n});\n",
-      "start": 1717937989408,
-      "end": 1717937989446,
+      "start": 1717938221213,
+      "end": 1717938221240,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -77,177 +77,177 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989446,
-      "end": 1717937989446,
+      "start": 1717938221240,
+      "end": 1717938221240,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937989446,
-      "end": 1717937989447,
+      "start": 1717938221240,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937989446,
-      "end": 1717937989447,
+      "start": 1717938221240,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989447,
-      "end": 1717937989447,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989447,
-      "end": 1717937989447,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989447,
-      "end": 1717937989447,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989447,
-      "end": 1717937989447,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1717937989447,
-      "end": 1717937989447,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/nogamishota/takagi/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Header\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_NuxtLink = __nuxt_component_0;\n      _push(`<header${_ssrRenderAttrs(_mergeProps({ class: \"header\" }, _attrs))} data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        to: \"/\",\n        class: \"logo\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`<img class=\"logo\"${_ssrRenderAttr(\"src\", _unref(IMAGE).logo)} data-v-6720485a${_scopeId}><img class=\"takagi\"${_ssrRenderAttr(\"src\", _unref(IMAGE).takagi)} data-v-6720485a${_scopeId}>`);\n          } else {\n            return [\n              _createVNode(\"img\", {\n                class: \"logo\",\n                src: _unref(IMAGE).logo\n              }, null, 8, [\"src\"]),\n              _createVNode(\"img\", {\n                class: \"takagi\",\n                src: _unref(IMAGE).takagi\n              }, null, 8, [\"src\"])\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`<nav class=\"contents\" data-v-6720485a><ul class=\"list\" data-v-6720485a><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`高木塾について`);\n          } else {\n            return [\n              _createTextVNode(\"高木塾について\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`<ul class=\"dropdown__lists\" data-v-6720485a><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`会社概要`);\n          } else {\n            return [\n              _createTextVNode(\"会社概要\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`授業料一覧`);\n          } else {\n            return [\n              _createTextVNode(\"授業料一覧\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/staff\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`スタッフ紹介`);\n          } else {\n            return [\n              _createTextVNode(\"スタッフ紹介\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li></ul></li><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`塾生の声`);\n          } else {\n            return [\n              _createTextVNode(\"塾生の声\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`塾長のブログ`);\n          } else {\n            return [\n              _createTextVNode(\"塾長のブログ\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"gnavi__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`お問い合わせ`);\n          } else {\n            return [\n              _createTextVNode(\"お問い合わせ\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`<ul class=\"dropdown__lists\" data-v-6720485a><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`資料請求`);\n          } else {\n            return [\n              _createTextVNode(\"資料請求\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`採用情報`);\n          } else {\n            return [\n              _createTextVNode(\"採用情報\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li><li class=\"dropdown__list\" data-v-6720485a>`);\n      _push(_ssrRenderComponent(_component_NuxtLink, {\n        class: \"link\",\n        to: \"/\"\n      }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`よくある質問`);\n          } else {\n            return [\n              _createTextVNode(\"よくある質問\")\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</li></ul></li></ul></nav><div class=\"sns\" data-v-6720485a><a class=\"link\" href=\"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&amp;utm_source=qr\" data-v-6720485a><img class=\"instagram\"${_ssrRenderAttr(\"src\", _unref(IMAGE).instagram)} data-v-6720485a></a><a class=\"link\" href=\"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\" data-v-6720485a><img class=\"youtube\"${_ssrRenderAttr(\"src\", _unref(IMAGE).youtube)} data-v-6720485a></a></div></header>`);\n    };\n  }\n});\n",
-      "start": 1717937989447,
-      "end": 1717937989448,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -260,20 +260,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937989448,
-      "end": 1717937989448,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937989448,
-      "end": 1717937989448,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937989448,
-      "end": 1717937989448,
+      "start": 1717938221241,
+      "end": 1717938221241,
       "order": "normal"
     }
   ]

@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n\nconst { contactState, send } = useContact();\nconst router = useRouter();\n\nconst clickSend = async () => {\n  try {\n    await send();\n\n    router.push(\"/completed\");\n  } catch {\n    router.push(\"/details\");\n  }\n};\n</script>\n\n<template>\n  <Navigate from=\"confirm\" />\n  <div class=\"contents\">\n    <dl class=\"form-area\">\n      <dt class=\"item\"><span class=\"title\">お名前(保護者様)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.parentName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(カタカナ)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.parentNameKana }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(お子様)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.childName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(カタカナ)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.childNameKana }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">メールアドレス</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.email }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">電話番号</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.phoneNumber }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">通われている学校</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.schoolName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">学年</span></dt>\n      <dd class=\"label-list\">\n        <p>{{ contactState.grade }} 年</p>\n      </dd>\n    </dl>\n    <dl class=\"form-other-area\">\n      <dt class=\"item\"><span class=\"title\">学習状況や学習上の課題</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.messagAssignment }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">資料請求に関して</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.messageDocument }}</p>\n      </dd>\n    </dl>\n  </div>\n  <div class=\"button-area\">\n    <AppButton title=\"送信する\" @click=\"clickSend\" />\n    <NuxtLink class=\"back\" to=\"/details\">\n      <p class=\"text\">戻る</p>\n      <img class=\"arrow\" :src=\"IMAGE.arrow\" />\n    </NuxtLink>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.contents {\n  margin: 40px auto 0;\n  max-width: 800px;\n  border-style: solid;\n  border-color: $white-blue;\n  border-width: 2px;\n  border-radius: 10px;\n}\n\n.form-area {\n  display: grid;\n  grid-template-columns: repeat(1, 1fr 2fr);\n  margin: 80px 30px 50px 100px;\n  gap: 50px;\n\n  > .item {\n    display: flex;\n    align-items: center;\n  }\n\n  > .input {\n    margin-left: 20px;\n\n    > .input-text {\n      padding: 2px;\n      min-width: 250px;\n      height: 30px;\n      font-size: 16px;\n    }\n  }\n\n  > .label-list {\n    display: flex;\n    margin-left: 20px;\n    gap: 10px;\n\n    > .label > .input {\n      margin-right: 2px;\n    }\n  }\n}\n\n.form-other-area {\n  margin-left: 100px;\n\n  > .item {\n    margin-bottom: 10px;\n  }\n\n  > .input {\n    margin: 0 0 50px 30px;\n\n    > .message {\n      font-family: inherit;\n      min-width: 520px;\n      height: 200px;\n      padding: 3px;\n      font-size: 16px;\n    }\n  }\n}\n\n.button-area {\n  display: flex;\n  position: relative;\n  max-width: 700px;\n  margin: 30px auto 100px;\n\n  > .button {\n    margin: 30px auto 0;\n  }\n\n  > .back {\n    position: absolute;\n    margin-top: 20px;\n    text-align: center;\n    justify-content: center;\n    width: 70px;\n    height: 70px;\n    color: $black;\n    background-color: $gray;\n    border-color: $black;\n    border-style: solid;\n    text-decoration: none;\n    border-radius: 9999px;\n\n    > .text {\n      margin-top: 6px;\n      padding: 0;\n      font-size: 16px;\n    }\n    > .arrow {\n      transform: rotate(180deg);\n    }\n  }\n}\n</style>\n",
-      "start": 1717937988925,
-      "end": 1717937988970,
+      "start": 1717938220532,
+      "end": 1717938220618,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937988970,
-      "end": 1717937988970,
+      "start": 1717938220618,
+      "end": 1717938220618,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import _sfc_main from \"/Users/nogamishota/takagi/src/pages/confirm.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/nogamishota/takagi/src/pages/confirm.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/nogamishota/takagi/src/pages/confirm.vue?vue&type=style&index=0&scoped=687e8ebd&lang.scss\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"pages/confirm.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-687e8ebd\"]]);\n",
-      "start": 1717937988970,
-      "end": 1717937989016,
+      "start": 1717938220618,
+      "end": 1717938220737,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -74,141 +74,141 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937989016,
-      "end": 1717937989016,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989016,
-      "end": 1717937989016,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989016,
-      "end": 1717937989016,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989016,
-      "end": 1717937989016,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989016,
-      "end": 1717937989016,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937989016,
-      "end": 1717937989016,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989016,
-      "end": 1717937989017,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220737,
+      "end": 1717938220737,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220737,
+      "end": 1717938220738,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989017,
-      "end": 1717937989017,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "export { default } from \"/Users/nogamishota/takagi/src/pages/confirm.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
-      "start": 1717937989017,
-      "end": 1717937989018,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -222,8 +222,8 @@
     {
       "name": "nuxt:pages-macros-transform",
       "result": "export { default } from \"/Users/nogamishota/takagi/src/pages/confirm.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
-      "start": 1717937989017,
-      "end": 1717937989018,
+      "start": 1717938220738,
+      "end": 1717938220738,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -236,32 +236,32 @@
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1717937989018,
-      "end": 1717937989018,
+      "start": 1717938220739,
+      "end": 1717938220739,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937989018,
-      "end": 1717937989018,
+      "start": 1717938220739,
+      "end": 1717938220739,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937989018,
-      "end": 1717937989018,
+      "start": 1717938220739,
+      "end": 1717938220739,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937989018,
-      "end": 1717937989018,
+      "start": 1717938220739,
+      "end": 1717938220739,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937989018,
-      "end": 1717937989018,
+      "start": 1717938220739,
+      "end": 1717938220739,
       "order": "normal"
     }
   ]

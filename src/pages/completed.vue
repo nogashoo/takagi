@@ -9,7 +9,7 @@
       </p>
     </div>
   </div>
-  <AppButton class="button" title="トップページに戻る" to="hoge" />
+  <AppButton class="button" title="トップページに戻る" to="" />
 </template>
 
 <style lang="scss" scoped>

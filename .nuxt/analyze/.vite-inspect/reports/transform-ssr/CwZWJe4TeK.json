@@ -4,8 +4,8 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, toDisplayString as _toDisplayString, createVNode as _createVNode, createCommentVNode as _createCommentVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\ntype Props = {\n  title: string;\n  default: string;\n  lessons: Array<{ title: string; detail: string }>;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'AccordionLesson',\n  __ssrInlineRender: true,\n  props: {\n    title: {},\n    default: {},\n    lessons: {}\n  },\n  setup(__props: any) {\n\nconst props = __props;\n\nconst isSelect = ref(props.default);\n\nconst elementary = computed(() => {\n  return props.lessons.map((lesson) => {\n    return {\n      title: lesson.title,\n      detail: lesson.detail,\n      isActive: isSelect.value === lesson.title,\n    };\n  });\n});\n\nconst handleClickForElement = (title: string) => {\n  isSelect.value = title;\n};\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  const _component_AccordionButton = _resolveComponent(\"AccordionButton\")!\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"box\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_AccordionButton, { title: _ctx.title }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<div${\n          _scopeId\n        }><div class=\"category\"${\n          _scopeId\n        }><!--[-->`)\n        _ssrRenderList(_unref(elementary), (item, key) => {\n          _push(`<button class=\"${\n            _ssrRenderClass([{ '-active': item.isActive }, \"button\"])\n          }\"${\n            _scopeId\n          }>${\n            _ssrInterpolate(item.title)\n          }</button>`)\n        })\n        _push(`<!--]--></div><!--[-->`)\n        _ssrRenderList(_unref(elementary), (item, key) => {\n          _push(`<div${_scopeId}>`)\n          if (item.isActive) {\n            _push(`<div class=\"text\"${\n              _scopeId\n            }>${\n              item.detail\n            }</div>`)\n          } else {\n            _push(`<!---->`)\n          }\n          _push(`</div>`)\n        })\n        _push(`<!--]--></div>`)\n      } else {\n        return [\n          _createVNode(\"div\", null, [\n            _createVNode(\"div\", { class: \"category\" }, [\n              (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                return (_openBlock(), _createBlock(\"button\", {\n                  class: [\"button\", { '-active': item.isActive }],\n                  key: key,\n                  onClick: ($event: any) => (handleClickForElement(item.title))\n                }, _toDisplayString(item.title), 11, [\"onClick\"]))\n              }), 128))\n            ]),\n            (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n              return (_openBlock(), _createBlock(\"div\", { key: key }, [\n                (item.isActive)\n                  ? (_openBlock(), _createBlock(\"div\", {\n                      key: 0,\n                      class: \"text\",\n                      innerHTML: item.detail\n                    }, null, 8, [\"innerHTML\"]))\n                  : _createCommentVNode(\"\", true)\n              ]))\n            }), 128))\n          ])\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n}\n\n})",
-      "start": 1717937989465,
-      "end": 1717937989465,
+      "start": 1717938221269,
+      "end": 1717938221269,
       "sourcemaps": {
         "version": 3,
         "sources": [
@@ -20,45 +20,45 @@
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989465,
-      "end": 1717937989465,
+      "start": 1717938221270,
+      "end": 1717938221270,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989465,
-      "end": 1717937989465,
+      "start": 1717938221270,
+      "end": 1717938221270,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989465,
-      "end": 1717937989465,
+      "start": 1717938221270,
+      "end": 1717938221270,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989465,
-      "end": 1717937989465,
+      "start": 1717938221270,
+      "end": 1717938221270,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937989466,
-      "end": 1717937989466,
+      "start": 1717938221270,
+      "end": 1717938221270,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937989466,
-      "end": 1717937989466,
+      "start": 1717938221270,
+      "end": 1717938221270,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, toDisplayString as _toDisplayString, createVNode as _createVNode, createCommentVNode as _createCommentVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionLesson\",\n  __ssrInlineRender: true,\n  props: {\n    title: {},\n    default: {},\n    lessons: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const isSelect = ref(props.default);\n    const elementary = computed(() => {\n      return props.lessons.map((lesson) => {\n        return {\n          title: lesson.title,\n          detail: lesson.detail,\n          isActive: isSelect.value === lesson.title\n        };\n      });\n    });\n    const handleClickForElement = (title) => {\n      isSelect.value = title;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_AccordionButton = _resolveComponent(\"AccordionButton\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"box\" }, _attrs))}>`);\n      _push(_ssrRenderComponent(_component_AccordionButton, { title: _ctx.title }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`<div${_scopeId}><div class=\"category\"${_scopeId}><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<button class=\"${_ssrRenderClass([{ \"-active\": item.isActive }, \"button\"])}\"${_scopeId}>${_ssrInterpolate(item.title)}</button>`);\n            });\n            _push2(`<!--]--></div><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<div${_scopeId}>`);\n              if (item.isActive) {\n                _push2(`<div class=\"text\"${_scopeId}>${item.detail}</div>`);\n              } else {\n                _push2(`<!---->`);\n              }\n              _push2(`</div>`);\n            });\n            _push2(`<!--]--></div>`);\n          } else {\n            return [\n              _createVNode(\"div\", null, [\n                _createVNode(\"div\", { class: \"category\" }, [\n                  (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                    return _openBlock(), _createBlock(\"button\", {\n                      class: [\"button\", { \"-active\": item.isActive }],\n                      key,\n                      onClick: ($event) => handleClickForElement(item.title)\n                    }, _toDisplayString(item.title), 11, [\"onClick\"]);\n                  }), 128))\n                ]),\n                (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                  return _openBlock(), _createBlock(\"div\", { key }, [\n                    item.isActive ? (_openBlock(), _createBlock(\"div\", {\n                      key: 0,\n                      class: \"text\",\n                      innerHTML: item.detail\n                    }, null, 8, [\"innerHTML\"])) : _createCommentVNode(\"\", true)\n                  ]);\n                }), 128))\n              ])\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</div>`);\n    };\n  }\n});\n",
-      "start": 1717937989466,
-      "end": 1717937989469,
+      "start": 1717938221270,
+      "end": 1717938221279,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -77,135 +77,135 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937989469,
-      "end": 1717937989469,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989470,
-      "end": 1717937989470,
+      "start": 1717938221279,
+      "end": 1717938221279,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref, computed } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, toDisplayString as _toDisplayString, createVNode as _createVNode, createCommentVNode as _createCommentVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionLesson\",\n  __ssrInlineRender: true,\n  props: {\n    title: {},\n    default: {},\n    lessons: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const isSelect = ref(props.default);\n    const elementary = computed(() => {\n      return props.lessons.map((lesson) => {\n        return {\n          title: lesson.title,\n          detail: lesson.detail,\n          isActive: isSelect.value === lesson.title\n        };\n      });\n    });\n    const handleClickForElement = (title) => {\n      isSelect.value = title;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_AccordionButton = _resolveComponent(\"AccordionButton\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"box\" }, _attrs))}>`);\n      _push(_ssrRenderComponent(_component_AccordionButton, { title: _ctx.title }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`<div${_scopeId}><div class=\"category\"${_scopeId}><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<button class=\"${_ssrRenderClass([{ \"-active\": item.isActive }, \"button\"])}\"${_scopeId}>${_ssrInterpolate(item.title)}</button>`);\n            });\n            _push2(`<!--]--></div><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<div${_scopeId}>`);\n              if (item.isActive) {\n                _push2(`<div class=\"text\"${_scopeId}>${item.detail}</div>`);\n              } else {\n                _push2(`<!---->`);\n              }\n              _push2(`</div>`);\n            });\n            _push2(`<!--]--></div>`);\n          } else {\n            return [\n              _createVNode(\"div\", null, [\n                _createVNode(\"div\", { class: \"category\" }, [\n                  (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                    return _openBlock(), _createBlock(\"button\", {\n                      class: [\"button\", { \"-active\": item.isActive }],\n                      key,\n                      onClick: ($event) => handleClickForElement(item.title)\n                    }, _toDisplayString(item.title), 11, [\"onClick\"]);\n                  }), 128))\n                ]),\n                (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                  return _openBlock(), _createBlock(\"div\", { key }, [\n                    item.isActive ? (_openBlock(), _createBlock(\"div\", {\n                      key: 0,\n                      class: \"text\",\n                      innerHTML: item.detail\n                    }, null, 8, [\"innerHTML\"])) : _createCommentVNode(\"\", true)\n                  ]);\n                }), 128))\n              ])\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</div>`);\n    };\n  }\n});\n",
-      "start": 1717937989470,
-      "end": 1717937989471,
+      "start": 1717938221279,
+      "end": 1717938221281,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -219,8 +219,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref, computed } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, toDisplayString as _toDisplayString, createVNode as _createVNode, createCommentVNode as _createCommentVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionLesson\",\n  __ssrInlineRender: true,\n  props: {\n    title: {},\n    default: {},\n    lessons: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const isSelect = ref(props.default);\n    const elementary = computed(() => {\n      return props.lessons.map((lesson) => {\n        return {\n          title: lesson.title,\n          detail: lesson.detail,\n          isActive: isSelect.value === lesson.title\n        };\n      });\n    });\n    const handleClickForElement = (title) => {\n      isSelect.value = title;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_AccordionButton = _resolveComponent(\"AccordionButton\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"box\" }, _attrs))}>`);\n      _push(_ssrRenderComponent(_component_AccordionButton, { title: _ctx.title }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`<div${_scopeId}><div class=\"category\"${_scopeId}><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<button class=\"${_ssrRenderClass([{ \"-active\": item.isActive }, \"button\"])}\"${_scopeId}>${_ssrInterpolate(item.title)}</button>`);\n            });\n            _push2(`<!--]--></div><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<div${_scopeId}>`);\n              if (item.isActive) {\n                _push2(`<div class=\"text\"${_scopeId}>${item.detail}</div>`);\n              } else {\n                _push2(`<!---->`);\n              }\n              _push2(`</div>`);\n            });\n            _push2(`<!--]--></div>`);\n          } else {\n            return [\n              _createVNode(\"div\", null, [\n                _createVNode(\"div\", { class: \"category\" }, [\n                  (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                    return _openBlock(), _createBlock(\"button\", {\n                      class: [\"button\", { \"-active\": item.isActive }],\n                      key,\n                      onClick: ($event) => handleClickForElement(item.title)\n                    }, _toDisplayString(item.title), 11, [\"onClick\"]);\n                  }), 128))\n                ]),\n                (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                  return _openBlock(), _createBlock(\"div\", { key }, [\n                    item.isActive ? (_openBlock(), _createBlock(\"div\", {\n                      key: 0,\n                      class: \"text\",\n                      innerHTML: item.detail\n                    }, null, 8, [\"innerHTML\"])) : _createCommentVNode(\"\", true)\n                  ]);\n                }), 128))\n              ])\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</div>`);\n    };\n  }\n});\n",
-      "start": 1717937989470,
-      "end": 1717937989471,
+      "start": 1717938221279,
+      "end": 1717938221281,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -233,39 +233,39 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/nogamishota/takagi/src/components/AccordionButton.vue\";\nimport { ref, computed } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, unref as _unref, withCtx as _withCtx, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, toDisplayString as _toDisplayString, createVNode as _createVNode, createCommentVNode as _createCommentVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionLesson\",\n  __ssrInlineRender: true,\n  props: {\n    title: {},\n    default: {},\n    lessons: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const isSelect = ref(props.default);\n    const elementary = computed(() => {\n      return props.lessons.map((lesson) => {\n        return {\n          title: lesson.title,\n          detail: lesson.detail,\n          isActive: isSelect.value === lesson.title\n        };\n      });\n    });\n    const handleClickForElement = (title) => {\n      isSelect.value = title;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_AccordionButton = __nuxt_component_0;\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"box\" }, _attrs))}>`);\n      _push(_ssrRenderComponent(_component_AccordionButton, { title: _ctx.title }, {\n        default: _withCtx((_, _push2, _parent2, _scopeId) => {\n          if (_push2) {\n            _push2(`<div${_scopeId}><div class=\"category\"${_scopeId}><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<button class=\"${_ssrRenderClass([{ \"-active\": item.isActive }, \"button\"])}\"${_scopeId}>${_ssrInterpolate(item.title)}</button>`);\n            });\n            _push2(`<!--]--></div><!--[-->`);\n            _ssrRenderList(_unref(elementary), (item, key) => {\n              _push2(`<div${_scopeId}>`);\n              if (item.isActive) {\n                _push2(`<div class=\"text\"${_scopeId}>${item.detail}</div>`);\n              } else {\n                _push2(`<!---->`);\n              }\n              _push2(`</div>`);\n            });\n            _push2(`<!--]--></div>`);\n          } else {\n            return [\n              _createVNode(\"div\", null, [\n                _createVNode(\"div\", { class: \"category\" }, [\n                  (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                    return _openBlock(), _createBlock(\"button\", {\n                      class: [\"button\", { \"-active\": item.isActive }],\n                      key,\n                      onClick: ($event) => handleClickForElement(item.title)\n                    }, _toDisplayString(item.title), 11, [\"onClick\"]);\n                  }), 128))\n                ]),\n                (_openBlock(true), _createBlock(_Fragment, null, _renderList(_unref(elementary), (item, key) => {\n                  return _openBlock(), _createBlock(\"div\", { key }, [\n                    item.isActive ? (_openBlock(), _createBlock(\"div\", {\n                      key: 0,\n                      class: \"text\",\n                      innerHTML: item.detail\n                    }, null, 8, [\"innerHTML\"])) : _createCommentVNode(\"\", true)\n                  ]);\n                }), 128))\n              ])\n            ];\n          }\n        }),\n        _: 1\n      }, _parent));\n      _push(`</div>`);\n    };\n  }\n});\n",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -278,20 +278,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937989471,
-      "end": 1717937989471,
+      "start": 1717938221281,
+      "end": 1717938221281,
       "order": "normal"
     }
   ]

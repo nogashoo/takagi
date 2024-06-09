@@ -4,38 +4,38 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-6720485a\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"header\" }\nconst _hoisted_2 = [\"src\"]\nconst _hoisted_3 = [\"src\"]\nconst _hoisted_4 = { class: \"contents\" }\nconst _hoisted_5 = { class: \"list\" }\nconst _hoisted_6 = { class: \"gnavi__list\" }\nconst _hoisted_7 = { class: \"dropdown__lists\" }\nconst _hoisted_8 = { class: \"dropdown__list\" }\nconst _hoisted_9 = { class: \"dropdown__list\" }\nconst _hoisted_10 = { class: \"dropdown__list\" }\nconst _hoisted_11 = { class: \"gnavi__list\" }\nconst _hoisted_12 = { class: \"gnavi__list\" }\nconst _hoisted_13 = { class: \"gnavi__list\" }\nconst _hoisted_14 = { class: \"dropdown__lists\" }\nconst _hoisted_15 = { class: \"dropdown__list\" }\nconst _hoisted_16 = { class: \"dropdown__list\" }\nconst _hoisted_17 = { class: \"dropdown__list\" }\nconst _hoisted_18 = { class: \"sns\" }\nconst _hoisted_19 = {\n  class: \"link\",\n  href: \"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr\"\n}\nconst _hoisted_20 = [\"src\"]\nconst _hoisted_21 = {\n  class: \"link\",\n  href: \"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\"\n}\nconst _hoisted_22 = [\"src\"]\n\nimport { IMAGE } from \"~/common/image\";\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Header',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n    _createVNode(_component_NuxtLink, {\n      to: \"/\",\n      class: \"logo\"\n    }, {\n      default: _withCtx(() => [\n        _createElementVNode(\"img\", {\n          class: \"logo\",\n          src: _unref(IMAGE).logo\n        }, null, 8, _hoisted_2),\n        _createElementVNode(\"img\", {\n          class: \"takagi\",\n          src: _unref(IMAGE).takagi\n        }, null, 8, _hoisted_3)\n      ]),\n      _: 1\n    }),\n    _createElementVNode(\"nav\", _hoisted_4, [\n      _createElementVNode(\"ul\", _hoisted_5, [\n        _createElementVNode(\"li\", _hoisted_6, [\n          _createVNode(_component_NuxtLink, {\n            class: \"link\",\n            to: \"/\"\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"高木塾について\")\n            ]),\n            _: 1\n          }),\n          _createElementVNode(\"ul\", _hoisted_7, [\n            _createElementVNode(\"li\", _hoisted_8, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"会社概要\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_9, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"授業料一覧\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_10, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/staff\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"スタッフ紹介\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"li\", _hoisted_11, [\n          _createVNode(_component_NuxtLink, {\n            class: \"link\",\n            to: \"/\"\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"塾生の声\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", _hoisted_12, [\n          _createVNode(_component_NuxtLink, {\n            class: \"link\",\n            to: \"/\"\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"塾長のブログ\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", _hoisted_13, [\n          _createVNode(_component_NuxtLink, {\n            class: \"link\",\n            to: \"/\"\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"お問い合わせ\")\n            ]),\n            _: 1\n          }),\n          _createElementVNode(\"ul\", _hoisted_14, [\n            _createElementVNode(\"li\", _hoisted_15, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"資料請求\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_16, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"採用情報\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_17, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"よくある質問\")\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ])\n    ]),\n    _createElementVNode(\"div\", _hoisted_18, [\n      _createElementVNode(\"a\", _hoisted_19, [\n        _createElementVNode(\"img\", {\n          class: \"instagram\",\n          src: _unref(IMAGE).instagram\n        }, null, 8, _hoisted_20)\n      ]),\n      _createElementVNode(\"a\", _hoisted_21, [\n        _createElementVNode(\"img\", {\n          class: \"youtube\",\n          src: _unref(IMAGE).youtube\n        }, null, 8, _hoisted_22)\n      ])\n    ])\n  ]))\n}\n}\n\n})",
-      "start": 1717937987719,
-      "end": 1717937987719
+      "start": 1717938219658,
+      "end": 1717938219658
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937987719,
-      "end": 1717937987719,
+      "start": 1717938219658,
+      "end": 1717938219658,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937987719,
-      "end": 1717937987719,
+      "start": 1717938219658,
+      "end": 1717938219658,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937987719,
-      "end": 1717937987719,
+      "start": 1717938219658,
+      "end": 1717938219658,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937987719,
-      "end": 1717937987719,
+      "start": 1717938219658,
+      "end": 1717938219658,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-6720485a\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"header\" };\nconst _hoisted_2 = [\"src\"];\nconst _hoisted_3 = [\"src\"];\nconst _hoisted_4 = { class: \"contents\" };\nconst _hoisted_5 = { class: \"list\" };\nconst _hoisted_6 = { class: \"gnavi__list\" };\nconst _hoisted_7 = { class: \"dropdown__lists\" };\nconst _hoisted_8 = { class: \"dropdown__list\" };\nconst _hoisted_9 = { class: \"dropdown__list\" };\nconst _hoisted_10 = { class: \"dropdown__list\" };\nconst _hoisted_11 = { class: \"gnavi__list\" };\nconst _hoisted_12 = { class: \"gnavi__list\" };\nconst _hoisted_13 = { class: \"gnavi__list\" };\nconst _hoisted_14 = { class: \"dropdown__lists\" };\nconst _hoisted_15 = { class: \"dropdown__list\" };\nconst _hoisted_16 = { class: \"dropdown__list\" };\nconst _hoisted_17 = { class: \"dropdown__list\" };\nconst _hoisted_18 = { class: \"sns\" };\nconst _hoisted_19 = {\n  class: \"link\",\n  href: \"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr\"\n};\nconst _hoisted_20 = [\"src\"];\nconst _hoisted_21 = {\n  class: \"link\",\n  href: \"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\"\n};\nconst _hoisted_22 = [\"src\"];\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Header\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n        _createVNode(_component_NuxtLink, {\n          to: \"/\",\n          class: \"logo\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"img\", {\n              class: \"logo\",\n              src: _unref(IMAGE).logo\n            }, null, 8, _hoisted_2),\n            _createElementVNode(\"img\", {\n              class: \"takagi\",\n              src: _unref(IMAGE).takagi\n            }, null, 8, _hoisted_3)\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"nav\", _hoisted_4, [\n          _createElementVNode(\"ul\", _hoisted_5, [\n            _createElementVNode(\"li\", _hoisted_6, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"高木塾について\")\n                ]),\n                _: 1\n              }),\n              _createElementVNode(\"ul\", _hoisted_7, [\n                _createElementVNode(\"li\", _hoisted_8, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"会社概要\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_9, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"授業料一覧\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_10, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/staff\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"スタッフ紹介\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ]),\n            _createElementVNode(\"li\", _hoisted_11, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"塾生の声\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_12, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"塾長のブログ\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_13, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"お問い合わせ\")\n                ]),\n                _: 1\n              }),\n              _createElementVNode(\"ul\", _hoisted_14, [\n                _createElementVNode(\"li\", _hoisted_15, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"資料請求\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_16, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"採用情報\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_17, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"よくある質問\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_18, [\n          _createElementVNode(\"a\", _hoisted_19, [\n            _createElementVNode(\"img\", {\n              class: \"instagram\",\n              src: _unref(IMAGE).instagram\n            }, null, 8, _hoisted_20)\n          ]),\n          _createElementVNode(\"a\", _hoisted_21, [\n            _createElementVNode(\"img\", {\n              class: \"youtube\",\n              src: _unref(IMAGE).youtube\n            }, null, 8, _hoisted_22)\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
-      "start": 1717937987719,
-      "end": 1717937987845,
+      "start": 1717938219661,
+      "end": 1717938219892,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -51,171 +51,171 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937987845,
-      "end": 1717937987845,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937987845,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937987846,
-      "end": 1717937987846,
+      "start": 1717938219892,
+      "end": 1717938219892,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937987846,
-      "end": 1717937987847,
+      "start": 1717938219892,
+      "end": 1717938219893,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219893,
+      "end": 1717938219893,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219893,
+      "end": 1717938219893,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219893,
+      "end": 1717938219893,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219893,
+      "end": 1717938219893,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"/Users/nogamishota/takagi/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-6720485a\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"header\" };\nconst _hoisted_2 = [\"src\"];\nconst _hoisted_3 = [\"src\"];\nconst _hoisted_4 = { class: \"contents\" };\nconst _hoisted_5 = { class: \"list\" };\nconst _hoisted_6 = { class: \"gnavi__list\" };\nconst _hoisted_7 = { class: \"dropdown__lists\" };\nconst _hoisted_8 = { class: \"dropdown__list\" };\nconst _hoisted_9 = { class: \"dropdown__list\" };\nconst _hoisted_10 = { class: \"dropdown__list\" };\nconst _hoisted_11 = { class: \"gnavi__list\" };\nconst _hoisted_12 = { class: \"gnavi__list\" };\nconst _hoisted_13 = { class: \"gnavi__list\" };\nconst _hoisted_14 = { class: \"dropdown__lists\" };\nconst _hoisted_15 = { class: \"dropdown__list\" };\nconst _hoisted_16 = { class: \"dropdown__list\" };\nconst _hoisted_17 = { class: \"dropdown__list\" };\nconst _hoisted_18 = { class: \"sns\" };\nconst _hoisted_19 = {\n  class: \"link\",\n  href: \"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr\"\n};\nconst _hoisted_20 = [\"src\"];\nconst _hoisted_21 = {\n  class: \"link\",\n  href: \"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\"\n};\nconst _hoisted_22 = [\"src\"];\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Header\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = __nuxt_component_0;\n      return _openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n        _createVNode(_component_NuxtLink, {\n          to: \"/\",\n          class: \"logo\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"img\", {\n              class: \"logo\",\n              src: _unref(IMAGE).logo\n            }, null, 8, _hoisted_2),\n            _createElementVNode(\"img\", {\n              class: \"takagi\",\n              src: _unref(IMAGE).takagi\n            }, null, 8, _hoisted_3)\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"nav\", _hoisted_4, [\n          _createElementVNode(\"ul\", _hoisted_5, [\n            _createElementVNode(\"li\", _hoisted_6, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"高木塾について\")\n                ]),\n                _: 1\n              }),\n              _createElementVNode(\"ul\", _hoisted_7, [\n                _createElementVNode(\"li\", _hoisted_8, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"会社概要\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_9, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"授業料一覧\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_10, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/staff\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"スタッフ紹介\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ]),\n            _createElementVNode(\"li\", _hoisted_11, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"塾生の声\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_12, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"塾長のブログ\")\n                ]),\n                _: 1\n              })\n            ]),\n            _createElementVNode(\"li\", _hoisted_13, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: \"/\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"お問い合わせ\")\n                ]),\n                _: 1\n              }),\n              _createElementVNode(\"ul\", _hoisted_14, [\n                _createElementVNode(\"li\", _hoisted_15, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"資料請求\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_16, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"採用情報\")\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _createElementVNode(\"li\", _hoisted_17, [\n                  _createVNode(_component_NuxtLink, {\n                    class: \"link\",\n                    to: \"/\"\n                  }, {\n                    default: _withCtx(() => [\n                      _createTextVNode(\"よくある質問\")\n                    ]),\n                    _: 1\n                  })\n                ])\n              ])\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_18, [\n          _createElementVNode(\"a\", _hoisted_19, [\n            _createElementVNode(\"img\", {\n              class: \"instagram\",\n              src: _unref(IMAGE).instagram\n            }, null, 8, _hoisted_20)\n          ]),\n          _createElementVNode(\"a\", _hoisted_21, [\n            _createElementVNode(\"img\", {\n              class: \"youtube\",\n              src: _unref(IMAGE).youtube\n            }, null, 8, _hoisted_22)\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219893,
+      "end": 1717938219894,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219894,
+      "end": 1717938219894,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219894,
+      "end": 1717938219894,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937987847,
-      "end": 1717937987847,
+      "start": 1717938219894,
+      "end": 1717938219894,
       "order": "normal"
     }
   ]

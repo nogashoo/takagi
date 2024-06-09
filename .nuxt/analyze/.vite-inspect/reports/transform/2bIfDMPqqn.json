@@ -4,208 +4,208 @@
     {
       "name": "virtual",
       "result": "import { default as completed20A6tvmtx8Meta } from \"/Users/nogamishota/takagi/src/pages/completed.vue?macro=true\";\nimport { default as confirmzq5FNeGEdbMeta } from \"/Users/nogamishota/takagi/src/pages/confirm.vue?macro=true\";\nimport { default as detailsn4ajBcXzUfMeta } from \"/Users/nogamishota/takagi/src/pages/details.vue?macro=true\";\nimport { default as indexay2AwRqh3BMeta } from \"/Users/nogamishota/takagi/src/pages/index.vue?macro=true\";\nimport { default as lessonQursIkdWTVMeta } from \"/Users/nogamishota/takagi/src/pages/lesson.vue?macro=true\";\nimport { default as staffcmNOxFWDkeMeta } from \"/Users/nogamishota/takagi/src/pages/staff.vue?macro=true\";\nexport default [\n  {\n    name: completed20A6tvmtx8Meta?.name ?? \"completed\",\n    path: completed20A6tvmtx8Meta?.path ?? \"/completed\",\n    meta: completed20A6tvmtx8Meta || {},\n    alias: completed20A6tvmtx8Meta?.alias || [],\n    redirect: completed20A6tvmtx8Meta?.redirect || undefined,\n    component: () => import(\"/Users/nogamishota/takagi/src/pages/completed.vue\").then(m => m.default || m)\n  },\n  {\n    name: confirmzq5FNeGEdbMeta?.name ?? \"confirm\",\n    path: confirmzq5FNeGEdbMeta?.path ?? \"/confirm\",\n    meta: confirmzq5FNeGEdbMeta || {},\n    alias: confirmzq5FNeGEdbMeta?.alias || [],\n    redirect: confirmzq5FNeGEdbMeta?.redirect || undefined,\n    component: () => import(\"/Users/nogamishota/takagi/src/pages/confirm.vue\").then(m => m.default || m)\n  },\n  {\n    name: detailsn4ajBcXzUfMeta?.name ?? \"details\",\n    path: detailsn4ajBcXzUfMeta?.path ?? \"/details\",\n    meta: detailsn4ajBcXzUfMeta || {},\n    alias: detailsn4ajBcXzUfMeta?.alias || [],\n    redirect: detailsn4ajBcXzUfMeta?.redirect || undefined,\n    component: () => import(\"/Users/nogamishota/takagi/src/pages/details.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexay2AwRqh3BMeta?.name ?? \"index\",\n    path: indexay2AwRqh3BMeta?.path ?? \"/\",\n    meta: indexay2AwRqh3BMeta || {},\n    alias: indexay2AwRqh3BMeta?.alias || [],\n    redirect: indexay2AwRqh3BMeta?.redirect || undefined,\n    component: () => import(\"/Users/nogamishota/takagi/src/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: lessonQursIkdWTVMeta?.name ?? \"lesson\",\n    path: lessonQursIkdWTVMeta?.path ?? \"/lesson\",\n    meta: lessonQursIkdWTVMeta || {},\n    alias: lessonQursIkdWTVMeta?.alias || [],\n    redirect: lessonQursIkdWTVMeta?.redirect || undefined,\n    component: () => import(\"/Users/nogamishota/takagi/src/pages/lesson.vue\").then(m => m.default || m)\n  },\n  {\n    name: staffcmNOxFWDkeMeta?.name ?? \"staff\",\n    path: staffcmNOxFWDkeMeta?.path ?? \"/staff\",\n    meta: staffcmNOxFWDkeMeta || {},\n    alias: staffcmNOxFWDkeMeta?.alias || [],\n    redirect: staffcmNOxFWDkeMeta?.redirect || undefined,\n    component: () => import(\"/Users/nogamishota/takagi/src/pages/staff.vue\").then(m => m.default || m)\n  }\n]",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218743,
+      "end": 1717938218743,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218743,
+      "end": 1717938218743,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218743,
+      "end": 1717938218743,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218743,
+      "end": 1717938218743,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218743,
+      "end": 1717938218743,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937987172,
-      "end": 1717937987172,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937987173,
-      "end": 1717937987173,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937987173,
-      "end": 1717937987173,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937987173,
-      "end": 1717937987173,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937987173,
-      "end": 1717937987173,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937987173,
-      "end": 1717937987173,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937987173,
-      "end": 1717937987173,
+      "start": 1717938218744,
+      "end": 1717938218744,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937987173,
-      "end": 1717937987174,
+      "start": 1717938218745,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218746,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
       "result": "import { __vitePreload } from \"\u0000vite/preload-helper\";import { default as completed20A6tvmtx8Meta } from \"/Users/nogamishota/takagi/src/pages/completed.vue?macro=true\";\nimport { default as confirmzq5FNeGEdbMeta } from \"/Users/nogamishota/takagi/src/pages/confirm.vue?macro=true\";\nimport { default as detailsn4ajBcXzUfMeta } from \"/Users/nogamishota/takagi/src/pages/details.vue?macro=true\";\nimport { default as indexay2AwRqh3BMeta } from \"/Users/nogamishota/takagi/src/pages/index.vue?macro=true\";\nimport { default as lessonQursIkdWTVMeta } from \"/Users/nogamishota/takagi/src/pages/lesson.vue?macro=true\";\nimport { default as staffcmNOxFWDkeMeta } from \"/Users/nogamishota/takagi/src/pages/staff.vue?macro=true\";\nexport default [\n  {\n    name: completed20A6tvmtx8Meta?.name ?? \"completed\",\n    path: completed20A6tvmtx8Meta?.path ?? \"/completed\",\n    meta: completed20A6tvmtx8Meta || {},\n    alias: completed20A6tvmtx8Meta?.alias || [],\n    redirect: completed20A6tvmtx8Meta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/nogamishota/takagi/src/pages/completed.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: confirmzq5FNeGEdbMeta?.name ?? \"confirm\",\n    path: confirmzq5FNeGEdbMeta?.path ?? \"/confirm\",\n    meta: confirmzq5FNeGEdbMeta || {},\n    alias: confirmzq5FNeGEdbMeta?.alias || [],\n    redirect: confirmzq5FNeGEdbMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/nogamishota/takagi/src/pages/confirm.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: detailsn4ajBcXzUfMeta?.name ?? \"details\",\n    path: detailsn4ajBcXzUfMeta?.path ?? \"/details\",\n    meta: detailsn4ajBcXzUfMeta || {},\n    alias: detailsn4ajBcXzUfMeta?.alias || [],\n    redirect: detailsn4ajBcXzUfMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/nogamishota/takagi/src/pages/details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexay2AwRqh3BMeta?.name ?? \"index\",\n    path: indexay2AwRqh3BMeta?.path ?? \"/\",\n    meta: indexay2AwRqh3BMeta || {},\n    alias: indexay2AwRqh3BMeta?.alias || [],\n    redirect: indexay2AwRqh3BMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/nogamishota/takagi/src/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: lessonQursIkdWTVMeta?.name ?? \"lesson\",\n    path: lessonQursIkdWTVMeta?.path ?? \"/lesson\",\n    meta: lessonQursIkdWTVMeta || {},\n    alias: lessonQursIkdWTVMeta?.alias || [],\n    redirect: lessonQursIkdWTVMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/nogamishota/takagi/src/pages/lesson.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: staffcmNOxFWDkeMeta?.name ?? \"staff\",\n    path: staffcmNOxFWDkeMeta?.path ?? \"/staff\",\n    meta: staffcmNOxFWDkeMeta || {},\n    alias: staffcmNOxFWDkeMeta?.alias || [],\n    redirect: staffcmNOxFWDkeMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"/Users/nogamishota/takagi/src/pages/staff.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218746,
+      "end": 1717938218747,
       "order": "normal",
       "sourcemaps": null
     },
     {
       "name": "vite:reporter",
-      "start": 1717937987174,
-      "end": 1717937987174,
+      "start": 1717938218747,
+      "end": 1717938218747,
       "order": "normal"
     }
   ]

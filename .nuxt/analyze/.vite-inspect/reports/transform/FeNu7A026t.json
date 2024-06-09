@@ -4,38 +4,38 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, normalizeClass as _normalizeClass, withModifiers as _withModifiers, renderSlot as _renderSlot, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = [\"onClick\"]\nconst _hoisted_2 = { class: \"title\" }\nconst _hoisted_3 = [\"src\"]\nconst _hoisted_4 = { class: \"detail\" }\n\nimport { IMAGE } from \"~/common/image\";\n\ntype Props = {\n  type?: string;\n  title: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'AccordionButton',\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props: any) {\n\n\n\nconst isOpen = ref(false);\n\nconst handleClick = () => {\n  isOpen.value = !isOpen.value;\n};\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", {\n    class: _normalizeClass([\"accordion-button\", { '-open': _unref(isOpen) }])\n  }, [\n    _createElementVNode(\"button\", {\n      class: \"button\",\n      onClick: _withModifiers(handleClick, [\"prevent\"])\n    }, [\n      _createElementVNode(\"h2\", _hoisted_2, _toDisplayString(_ctx.title), 1),\n      _createElementVNode(\"img\", {\n        class: _normalizeClass([\"arrow\", { '-open': _unref(isOpen) }]),\n        src: _unref(IMAGE).arrow\n      }, null, 10, _hoisted_3)\n    ], 8, _hoisted_1),\n    _createElementVNode(\"div\", _hoisted_4, [\n      _renderSlot(_ctx.$slots, \"default\")\n    ])\n  ], 2))\n}\n}\n\n})",
-      "start": 1717937988290,
-      "end": 1717937988290
+      "start": 1717938219938,
+      "end": 1717938219938
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937988290,
-      "end": 1717937988290,
+      "start": 1717938219938,
+      "end": 1717938219938,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937988290,
-      "end": 1717937988290,
+      "start": 1717938219938,
+      "end": 1717938219938,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937988290,
-      "end": 1717937988290,
+      "start": 1717938219938,
+      "end": 1717938219938,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937988290,
-      "end": 1717937988290,
+      "start": 1717938219938,
+      "end": 1717938219938,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, normalizeClass as _normalizeClass, withModifiers as _withModifiers, renderSlot as _renderSlot, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = [\"onClick\"];\nconst _hoisted_2 = { class: \"title\" };\nconst _hoisted_3 = [\"src\"];\nconst _hoisted_4 = { class: \"detail\" };\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionButton\",\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props) {\n    const isOpen = ref(false);\n    const handleClick = () => {\n      isOpen.value = !isOpen.value;\n    };\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", {\n        class: _normalizeClass([\"accordion-button\", { \"-open\": _unref(isOpen) }])\n      }, [\n        _createElementVNode(\"button\", {\n          class: \"button\",\n          onClick: _withModifiers(handleClick, [\"prevent\"])\n        }, [\n          _createElementVNode(\"h2\", _hoisted_2, _toDisplayString(_ctx.title), 1),\n          _createElementVNode(\"img\", {\n            class: _normalizeClass([\"arrow\", { \"-open\": _unref(isOpen) }]),\n            src: _unref(IMAGE).arrow\n          }, null, 10, _hoisted_3)\n        ], 8, _hoisted_1),\n        _createElementVNode(\"div\", _hoisted_4, [\n          _renderSlot(_ctx.$slots, \"default\")\n        ])\n      ], 2);\n    };\n  }\n});\n",
-      "start": 1717937988292,
-      "end": 1717937988302,
+      "start": 1717938219939,
+      "end": 1717938219948,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -51,123 +51,123 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937988302,
-      "end": 1717937988302,
+      "start": 1717938219948,
+      "end": 1717938219948,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937988302,
-      "end": 1717937988302,
+      "start": 1717938219948,
+      "end": 1717938219948,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937988302,
-      "end": 1717937988302,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937988302,
-      "end": 1717937988302,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937988302,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937988303,
-      "end": 1717937988303,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, normalizeClass as _normalizeClass, withModifiers as _withModifiers, renderSlot as _renderSlot, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = [\"onClick\"];\nconst _hoisted_2 = { class: \"title\" };\nconst _hoisted_3 = [\"src\"];\nconst _hoisted_4 = { class: \"detail\" };\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionButton\",\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props) {\n    const isOpen = ref(false);\n    const handleClick = () => {\n      isOpen.value = !isOpen.value;\n    };\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", {\n        class: _normalizeClass([\"accordion-button\", { \"-open\": _unref(isOpen) }])\n      }, [\n        _createElementVNode(\"button\", {\n          class: \"button\",\n          onClick: _withModifiers(handleClick, [\"prevent\"])\n        }, [\n          _createElementVNode(\"h2\", _hoisted_2, _toDisplayString(_ctx.title), 1),\n          _createElementVNode(\"img\", {\n            class: _normalizeClass([\"arrow\", { \"-open\": _unref(isOpen) }]),\n            src: _unref(IMAGE).arrow\n          }, null, 10, _hoisted_3)\n        ], 8, _hoisted_1),\n        _createElementVNode(\"div\", _hoisted_4, [\n          _renderSlot(_ctx.$slots, \"default\")\n        ])\n      ], 2);\n    };\n  }\n});\n",
-      "start": 1717937988303,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -180,50 +180,50 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937988304,
-      "end": 1717937988304,
+      "start": 1717938219949,
+      "end": 1717938219949,
       "order": "normal"
     }
   ]

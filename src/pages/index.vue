@@ -132,7 +132,7 @@ const heightLessons = [
         <img :src="study" />
       </li>
     </ul>
-    <AppButton class="button" title="もっと見る" to="hoge" />
+    <AppButton class="button" title="もっと見る" to="" />
   </div>
   <div class="strong-point">
     <h1 class="top">強み</h1>
@@ -182,7 +182,7 @@ const heightLessons = [
         :lessons="heightLessons"
       />
     </div>
-    <AppButton class="button" title="授業料一覧はこちら" to="hoge" />
+    <AppButton class="button" title="授業料一覧はこちら" to="" />
   </div>
   <div class="notice">
     <h1 class="top">生徒の声</h1>
@@ -204,7 +204,7 @@ const heightLessons = [
         </p>
       </div>
     </div>
-    <AppButton class="button" title="もっと見る" to="hoge" />
+    <AppButton class="button" title="もっと見る" to="" />
   </div>
   <div class="introduce">
     <h1 class="top">塾長の紹介</h1>

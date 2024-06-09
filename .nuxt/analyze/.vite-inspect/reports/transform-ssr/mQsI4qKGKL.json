@@ -4,8 +4,8 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass } from \"vue/server-renderer\"\n\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navigate',\n  __ssrInlineRender: true,\n  props: {\n    from: {}\n  },\n  setup(__props: any) {\n\nconst props = __props;\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<!--[--><h1 class=\"top\" data-v-4382c15a>資料請求</h1><div class=\"nav\" data-v-4382c15a><div class=\"number\" data-v-4382c15a><img class=\"image\"${\n    _ssrRenderAttr(\"src\", _unref(one))\n  } data-v-4382c15a><div class=\"line1\" data-v-4382c15a></div><img class=\"image -center\"${\n    _ssrRenderAttr(\"src\", _unref(two))\n  } data-v-4382c15a><div class=\"line2\" data-v-4382c15a></div><img class=\"image\"${\n    _ssrRenderAttr(\"src\", _unref(three))\n  } data-v-4382c15a></div><div class=\"state\" data-v-4382c15a><p class=\"${\n    _ssrRenderClass([{ '-active': fromDetails.value }, \"text\"])\n  }\" data-v-4382c15a>入力</p><p class=\"${\n    _ssrRenderClass([{ '-active': fromConfirm.value }, \"text -center\"])\n  }\" data-v-4382c15a>確認</p><p class=\"${\n    _ssrRenderClass([{ '-active': fromCompleted.value }, \"text\"])\n  }\" data-v-4382c15a>完了</p></div></div><!--]-->`)\n}\n}\n\n})",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "sourcemaps": {
         "version": 3,
         "sources": [
@@ -20,45 +20,45 @@
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937989245,
-      "end": 1717937989245,
+      "start": 1717938221180,
+      "end": 1717938221180,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Navigate\",\n  __ssrInlineRender: true,\n  props: {\n    from: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const fromDetails = computed(() => props.from === \"details\");\n    const fromConfirm = computed(() => props.from === \"confirm\");\n    const fromCompleted = computed(() => props.from === \"completed\");\n    const one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\n    const two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\n    const three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<!--[--><h1 class=\"top\" data-v-4382c15a>資料請求</h1><div class=\"nav\" data-v-4382c15a><div class=\"number\" data-v-4382c15a><img class=\"image\"${_ssrRenderAttr(\"src\", _unref(one))} data-v-4382c15a><div class=\"line1\" data-v-4382c15a></div><img class=\"image -center\"${_ssrRenderAttr(\"src\", _unref(two))} data-v-4382c15a><div class=\"line2\" data-v-4382c15a></div><img class=\"image\"${_ssrRenderAttr(\"src\", _unref(three))} data-v-4382c15a></div><div class=\"state\" data-v-4382c15a><p class=\"${_ssrRenderClass([{ \"-active\": fromDetails.value }, \"text\"])}\" data-v-4382c15a>入力</p><p class=\"${_ssrRenderClass([{ \"-active\": fromConfirm.value }, \"text -center\"])}\" data-v-4382c15a>確認</p><p class=\"${_ssrRenderClass([{ \"-active\": fromCompleted.value }, \"text\"])}\" data-v-4382c15a>完了</p></div></div><!--]-->`);\n    };\n  }\n});\n",
-      "start": 1717937989247,
-      "end": 1717937989396,
+      "start": 1717938221182,
+      "end": 1717938221219,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -74,194 +74,194 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989396,
-      "end": 1717937989396,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989397,
-      "end": 1717937989397,
+      "start": 1717938221219,
+      "end": 1717938221219,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937989397,
-      "end": 1717937989398,
+      "start": 1717938221219,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1717937989397,
-      "end": 1717937989398,
+      "start": 1717938221219,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937989398,
-      "end": 1717937989398,
+      "start": 1717938221220,
+      "end": 1717938221220,
       "order": "normal"
     }
   ]

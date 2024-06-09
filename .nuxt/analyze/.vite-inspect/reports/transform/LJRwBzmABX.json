@@ -4,39 +4,39 @@
     {
       "name": "vite:load-fallback",
       "result": "export const useContact = () => {\n  const contactState = useState(\"contact\", () => {\n    return {\n      parentName: \"\",\n      parentNameKana: \"\",\n      childName: \"\",\n      childNameKana: \"\",\n      email: \"\",\n      phoneNumber: \"\",\n      schoolName: \"\",\n      grade: \"\",\n      messagAssignment: \"\",\n      messageDocument: \"\",\n    };\n  });\n\n  const setContact = (contact: any) => {\n    contactState.value = contact;\n  };\n\n  const send = async () => {\n    const formData = new FormData();\n    Object.entries(contactState.value).forEach(([key, value]) => {\n      formData.append(key, value);\n    });\n\n    await fetch(\"https://nogami-test.form.newt.so/v1/0teHx56Yc\", {\n      method: \"POST\",\n      body: formData,\n      headers: {\n        Accept: \"application/json\",\n      },\n    });\n  };\n\n  return {\n    contactState: readonly(contactState),\n    setContact,\n    send,\n  };\n};\n",
-      "start": 1717937988051,
-      "end": 1717937988057,
+      "start": 1717938219650,
+      "end": 1717938219662,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937988057,
-      "end": 1717937988057,
+      "start": 1717938219662,
+      "end": 1717938219662,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937988057,
-      "end": 1717937988057,
+      "start": 1717938219662,
+      "end": 1717938219662,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937988057,
-      "end": 1717937988057,
+      "start": 1717938219662,
+      "end": 1717938219662,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937988057,
-      "end": 1717937988057,
+      "start": 1717938219662,
+      "end": 1717938219662,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "export const useContact = () => {\n  const contactState = useState(\"contact\", () => {\n    return {\n      parentName: \"\",\n      parentNameKana: \"\",\n      childName: \"\",\n      childNameKana: \"\",\n      email: \"\",\n      phoneNumber: \"\",\n      schoolName: \"\",\n      grade: \"\",\n      messagAssignment: \"\",\n      messageDocument: \"\"\n    };\n  });\n  const setContact = (contact) => {\n    contactState.value = contact;\n  };\n  const send = async () => {\n    const formData = new FormData();\n    Object.entries(contactState.value).forEach(([key, value]) => {\n      formData.append(key, value);\n    });\n    await fetch(\"https://nogami-test.form.newt.so/v1/0teHx56Yc\", {\n      method: \"POST\",\n      body: formData,\n      headers: {\n        Accept: \"application/json\"\n      }\n    });\n  };\n  return {\n    contactState: readonly(contactState),\n    setContact,\n    send\n  };\n};\n",
-      "start": 1717937988057,
-      "end": 1717937988071,
+      "start": 1717938219662,
+      "end": 1717938219889,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -52,123 +52,123 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937988071,
-      "end": 1717937988071,
+      "start": 1717938219889,
+      "end": 1717938219889,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937988071,
-      "end": 1717937988072,
+      "start": 1717938219889,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { useState } from '#app/composables/state';\nimport { readonly } from 'vue';\nexport const useContact = () => {\n  const contactState = useState(\"contact\", () => {\n    return {\n      parentName: \"\",\n      parentNameKana: \"\",\n      childName: \"\",\n      childNameKana: \"\",\n      email: \"\",\n      phoneNumber: \"\",\n      schoolName: \"\",\n      grade: \"\",\n      messagAssignment: \"\",\n      messageDocument: \"\"\n    };\n  });\n  const setContact = (contact) => {\n    contactState.value = contact;\n  };\n  const send = async () => {\n    const formData = new FormData();\n    Object.entries(contactState.value).forEach(([key, value]) => {\n      formData.append(key, value);\n    });\n    await fetch(\"https://nogami-test.form.newt.so/v1/0teHx56Yc\", {\n      method: \"POST\",\n      body: formData,\n      headers: {\n        Accept: \"application/json\"\n      }\n    });\n  };\n  return {\n    contactState: readonly(contactState),\n    setContact,\n    send\n  };\n};\n",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -181,50 +181,50 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937988072,
-      "end": 1717937988072,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937988073,
-      "end": 1717937988073,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937988073,
-      "end": 1717937988073,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937988073,
-      "end": 1717937988073,
+      "start": 1717938219890,
+      "end": 1717938219890,
       "order": "normal"
     }
   ]

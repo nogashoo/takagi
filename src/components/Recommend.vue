@@ -15,7 +15,7 @@ import { IMAGE } from "~/common/image";
         <p>お気楽にご相談ください！</p>
       </div>
       <div class="button">
-        <NuxtLink to="/hoge" class="reserve"
+        <NuxtLink to="" class="reserve"
           ><p class="text">無料学習相談&体験授業予約</p></NuxtLink
         >
         <a class="friend" href="https://line.me/ti/p/xvK1fqfVqW">

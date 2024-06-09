@@ -4,8 +4,8 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttr as _ssrRenderAttr, ssrRenderSlot as _ssrRenderSlot, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\n\nimport { IMAGE } from \"~/common/image\";\n\ntype Props = {\n  type?: string;\n  title: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'AccordionButton',\n  __ssrInlineRender: true,\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props: any) {\n\n\n\nconst isOpen = ref(false);\n\nconst handleClick = () => {\n  isOpen.value = !isOpen.value;\n};\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({\n      class: [\"accordion-button\", { '-open': _unref(isOpen) }]\n    }, _attrs))\n  }><button class=\"button\"><h2 class=\"title\">${\n    _ssrInterpolate(_ctx.title)\n  }</h2><img class=\"${\n    _ssrRenderClass([{ '-open': _unref(isOpen) }, \"arrow\"])\n  }\"${\n    _ssrRenderAttr(\"src\", _unref(IMAGE).arrow)\n  }></button><div class=\"detail\">`)\n  _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push, _parent)\n  _push(`</div></div>`)\n}\n}\n\n})",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "sourcemaps": {
         "version": 3,
         "sources": [
@@ -20,45 +20,45 @@
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1717937989499,
-      "end": 1717937989499,
+      "start": 1717938221293,
+      "end": 1717938221293,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttr as _ssrRenderAttr, ssrRenderSlot as _ssrRenderSlot, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionButton\",\n  __ssrInlineRender: true,\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props) {\n    const isOpen = ref(false);\n    const handleClick = () => {\n      isOpen.value = !isOpen.value;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        class: [\"accordion-button\", { \"-open\": _unref(isOpen) }]\n      }, _attrs))}><button class=\"button\"><h2 class=\"title\">${_ssrInterpolate(_ctx.title)}</h2><img class=\"${_ssrRenderClass([{ \"-open\": _unref(isOpen) }, \"arrow\"])}\"${_ssrRenderAttr(\"src\", _unref(IMAGE).arrow)}></button><div class=\"detail\">`);\n      _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push, _parent);\n      _push(`</div></div>`);\n    };\n  }\n});\n",
-      "start": 1717937989500,
-      "end": 1717937989506,
+      "start": 1717938221294,
+      "end": 1717938221301,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -74,135 +74,135 @@
     },
     {
       "name": "vite:json",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221301,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttr as _ssrRenderAttr, ssrRenderSlot as _ssrRenderSlot, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionButton\",\n  __ssrInlineRender: true,\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props) {\n    const isOpen = ref(false);\n    const handleClick = () => {\n      isOpen.value = !isOpen.value;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        class: [\"accordion-button\", { \"-open\": _unref(isOpen) }]\n      }, _attrs))}><button class=\"button\"><h2 class=\"title\">${_ssrInterpolate(_ctx.title)}</h2><img class=\"${_ssrRenderClass([{ \"-open\": _unref(isOpen) }, \"arrow\"])}\"${_ssrRenderAttr(\"src\", _unref(IMAGE).arrow)}></button><div class=\"detail\">`);\n      _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push, _parent);\n      _push(`</div></div>`);\n    };\n  }\n});\n",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221302,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -216,8 +216,8 @@
     {
       "name": "nuxt:imports-transform",
       "result": "import { ref } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttr as _ssrRenderAttr, ssrRenderSlot as _ssrRenderSlot, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AccordionButton\",\n  __ssrInlineRender: true,\n  props: {\n    type: {},\n    title: {}\n  },\n  setup(__props) {\n    const isOpen = ref(false);\n    const handleClick = () => {\n      isOpen.value = !isOpen.value;\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        class: [\"accordion-button\", { \"-open\": _unref(isOpen) }]\n      }, _attrs))}><button class=\"button\"><h2 class=\"title\">${_ssrInterpolate(_ctx.title)}</h2><img class=\"${_ssrRenderClass([{ \"-open\": _unref(isOpen) }, \"arrow\"])}\"${_ssrRenderAttr(\"src\", _unref(IMAGE).arrow)}></button><div class=\"detail\">`);\n      _ssrRenderSlot(_ctx.$slots, \"default\", {}, null, _push, _parent);\n      _push(`</div></div>`);\n    };\n  }\n});\n",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221301,
+      "end": 1717938221302,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -230,56 +230,56 @@
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1717937989506,
-      "end": 1717937989506,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1717937989506,
-      "end": 1717937989507,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1717937989507,
-      "end": 1717937989507,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1717937989507,
-      "end": 1717937989507,
+      "start": 1717938221302,
+      "end": 1717938221302,
       "order": "normal"
     }
   ]
