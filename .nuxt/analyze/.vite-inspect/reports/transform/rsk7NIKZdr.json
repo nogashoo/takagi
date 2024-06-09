@@ -1,0 +1,222 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-a40ab0e7\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"recommend\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"title\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"ニガテ科目を克服！成績ぐんぐんアップ！\"),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"line\" })\n], -1))\nconst _hoisted_3 = { class: \"details\" }\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"無料学習相談、体験授業実施中！\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"勉強のお困りごと・成績についてのことなど\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"お気楽にご相談ください！\")\n], -1))\nconst _hoisted_5 = { class: \"button\" }\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"無料学習相談&体験授業予約\", -1))\nconst _hoisted_7 = {\n  class: \"friend\",\n  href: \"https://line.me/ti/p/xvK1fqfVqW\"\n}\nconst _hoisted_8 = [\"src\"]\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"友達追加\", -1))\n\nimport { IMAGE } from \"~/common/image\";\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Recommend',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _hoisted_4,\n      _createElementVNode(\"div\", _hoisted_5, [\n        _createVNode(_component_NuxtLink, {\n          to: \"/hoge\",\n          class: \"reserve\"\n        }, {\n          default: _withCtx(() => [\n            _hoisted_6\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"a\", _hoisted_7, [\n          _createElementVNode(\"img\", {\n            class: \"line-logo\",\n            src: _unref(IMAGE).line\n          }, null, 8, _hoisted_8),\n          _hoisted_9\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1717937988073,
+      "end": 1717937988073
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937988074,
+      "end": 1717937988074,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937988074,
+      "end": 1717937988074,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937988074,
+      "end": 1717937988074,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1717937988074,
+      "end": 1717937988074,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-a40ab0e7\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"recommend\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"title\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"ニガテ科目を克服！成績ぐんぐんアップ！\"),\n  /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line\" })\n], -1));\nconst _hoisted_3 = { class: \"details\" };\nconst _hoisted_4 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"text\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"無料学習相談、体験授業実施中！\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"勉強のお困りごと・成績についてのことなど\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"お気楽にご相談ください！\")\n], -1));\nconst _hoisted_5 = { class: \"button\" };\nconst _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"無料学習相談&体験授業予約\", -1));\nconst _hoisted_7 = {\n  class: \"friend\",\n  href: \"https://line.me/ti/p/xvK1fqfVqW\"\n};\nconst _hoisted_8 = [\"src\"];\nconst _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"友達追加\", -1));\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Recommend\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          _hoisted_4,\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createVNode(_component_NuxtLink, {\n              to: \"/hoge\",\n              class: \"reserve\"\n            }, {\n              default: _withCtx(() => [\n                _hoisted_6\n              ]),\n              _: 1\n            }),\n            _createElementVNode(\"a\", _hoisted_7, [\n              _createElementVNode(\"img\", {\n                class: \"line-logo\",\n                src: _unref(IMAGE).line\n              }, null, 8, _hoisted_8),\n              _hoisted_9\n            ])\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1717937988075,
+      "end": 1717937988078,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-a40ab0e7\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"recommend\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"title\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"ニガテ科目を克服！成績ぐんぐんアップ！\"),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"line\" })\n], -1))\nconst _hoisted_3 = { class: \"details\" }\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"無料学習相談、体験授業実施中！\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"勉強のお困りごと・成績についてのことなど\"),\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"お気楽にご相談ください！\")\n], -1))\nconst _hoisted_5 = { class: \"button\" }\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"無料学習相談&体験授業予約\", -1))\nconst _hoisted_7 = {\n  class: \"friend\",\n  href: \"https://line.me/ti/p/xvK1fqfVqW\"\n}\nconst _hoisted_8 = [\"src\"]\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"友達追加\", -1))\n\nimport { IMAGE } from \"~/common/image\";\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Recommend',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _hoisted_4,\n      _createElementVNode(\"div\", _hoisted_5, [\n        _createVNode(_component_NuxtLink, {\n          to: \"/hoge\",\n          class: \"reserve\"\n        }, {\n          default: _withCtx(() => [\n            _hoisted_6\n          ]),\n          _: 1\n        }),\n        _createElementVNode(\"a\", _hoisted_7, [\n          _createElementVNode(\"img\", {\n            class: \"line-logo\",\n            src: _unref(IMAGE).line\n          }, null, 8, _hoisted_8),\n          _hoisted_9\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,oBAAoB,mBAAmB,WAAW,UAAU,eAAe,cAAc,SAAS,QAAQ,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAEhS,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAAa,EAAE,OAAO,YAAY;AACxC,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,OAAO,QAAQ,GAAG;AAAA,EACjG,oCAAoB,KAAK,EAAE,OAAO,OAAO,GAAG,qBAAqB;AAAA,EACjE,oCAAoB,OAAO,EAAE,OAAO,OAAO,CAAC;AAC3D,GAAG,EAAE,CAAC;AACN,MAAM,aAAa,EAAE,OAAO,UAAU;AACtC,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,OAAO,OAAO,GAAG;AAAA,EAChG,oCAAoB,KAAK,MAAM,iBAAiB;AAAA,EAChD,oCAAoB,KAAK,MAAM,sBAAsB;AAAA,EACrD,oCAAoB,KAAK,MAAM,cAAc;AAC5D,GAAG,EAAE,CAAC;AACN,MAAM,aAAa,EAAE,OAAO,SAAS;AACrC,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,KAAK,EAAE,OAAO,OAAO,GAAG,iBAAiB,EAAE,CAAC;AACjI,MAAM,aAAa;AAAA,EACjB,OAAO;AAAA,EACP,MAAM;AACR;AACA,MAAM,aAAa,CAAC,KAAK;AACzB,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,KAAK,EAAE,OAAO,OAAO,GAAG,QAAQ,EAAE,CAAC;AAExH,SAAS,aAAa;AAEtB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAGjB,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,sBAAsB,kBAAkB,UAAU;AAExD,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D;AAAA,QACA,oBAAoB,OAAO,YAAY;AAAA,UACrC;AAAA,UACA,oBAAoB,OAAO,YAAY;AAAA,YACrC,aAAa,qBAAqB;AAAA,cAChC,IAAI;AAAA,cACJ,OAAO;AAAA,YACT,GAAG;AAAA,cACD,SAAS,SAAS,MAAM;AAAA,gBACtB;AAAA,cACF,CAAC;AAAA,cACD,GAAG;AAAA,YACL,CAAC;AAAA,YACD,oBAAoB,KAAK,YAAY;AAAA,cACnC,oBAAoB,OAAO;AAAA,gBACzB,OAAO;AAAA,gBACP,KAAK,OAAO,KAAK,EAAE;AAAA,cACrB,GAAG,MAAM,GAAG,UAAU;AAAA,cACtB;AAAA,YACF,CAAC;AAAA,UACH,CAAC;AAAA,QACH,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937988078,
+      "end": 1717937988078,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937988078,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/Users/nogamishota/takagi/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, unref as _unref, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-a40ab0e7\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"recommend\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"title\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"ニガテ科目を克服！成績ぐんぐんアップ！\"),\n  /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line\" })\n], -1));\nconst _hoisted_3 = { class: \"details\" };\nconst _hoisted_4 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"text\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"無料学習相談、体験授業実施中！\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"勉強のお困りごと・成績についてのことなど\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"お気楽にご相談ください！\")\n], -1));\nconst _hoisted_5 = { class: \"button\" };\nconst _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"無料学習相談&体験授業予約\", -1));\nconst _hoisted_7 = {\n  class: \"friend\",\n  href: \"https://line.me/ti/p/xvK1fqfVqW\"\n};\nconst _hoisted_8 = [\"src\"];\nconst _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"p\", { class: \"text\" }, \"友達追加\", -1));\nimport { IMAGE } from \"~/common/image\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Recommend\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = __nuxt_component_0;\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          _hoisted_4,\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createVNode(_component_NuxtLink, {\n              to: \"/hoge\",\n              class: \"reserve\"\n            }, {\n              default: _withCtx(() => [\n                _hoisted_6\n              ]),\n              _: 1\n            }),\n            _createElementVNode(\"a\", _hoisted_7, [\n              _createElementVNode(\"img\", {\n                class: \"line-logo\",\n                src: _unref(IMAGE).line\n              }, null, 8, _hoisted_8),\n              _hoisted_9\n            ])\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937988079,
+      "end": 1717937988079,
+      "order": "normal"
+    }
+  ]
+}

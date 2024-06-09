@@ -1,0 +1,290 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/pages/confirm.vue?vue&type=style&index=0&scoped=687e8ebd&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.contents {\n  margin: 40px auto 0;\n  max-width: 800px;\n  border-style: solid;\n  border-color: $white-blue;\n  border-width: 2px;\n  border-radius: 10px;\n}\n\n.form-area {\n  display: grid;\n  grid-template-columns: repeat(1, 1fr 2fr);\n  margin: 80px 30px 50px 100px;\n  gap: 50px;\n\n  > .item {\n    display: flex;\n    align-items: center;\n  }\n\n  > .input {\n    margin-left: 20px;\n\n    > .input-text {\n      padding: 2px;\n      min-width: 250px;\n      height: 30px;\n      font-size: 16px;\n    }\n  }\n\n  > .label-list {\n    display: flex;\n    margin-left: 20px;\n    gap: 10px;\n\n    > .label > .input {\n      margin-right: 2px;\n    }\n  }\n}\n\n.form-other-area {\n  margin-left: 100px;\n\n  > .item {\n    margin-bottom: 10px;\n  }\n\n  > .input {\n    margin: 0 0 50px 30px;\n\n    > .message {\n      font-family: inherit;\n      min-width: 520px;\n      height: 200px;\n      padding: 3px;\n      font-size: 16px;\n    }\n  }\n}\n\n.button-area {\n  display: flex;\n  position: relative;\n  max-width: 700px;\n  margin: 30px auto 100px;\n\n  > .button {\n    margin: 30px auto 0;\n  }\n\n  > .back {\n    position: absolute;\n    margin-top: 20px;\n    text-align: center;\n    justify-content: center;\n    width: 70px;\n    height: 70px;\n    color: $black;\n    background-color: $gray;\n    border-color: $black;\n    border-style: solid;\n    text-decoration: none;\n    border-radius: 9999px;\n\n    > .text {\n      margin-top: 6px;\n      padding: 0;\n      font-size: 16px;\n    }\n    > .arrow {\n      transform: rotate(180deg);\n    }\n  }\n}\n",
+      "start": 1717937989030,
+      "end": 1717937989030,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/pages/confirm.vue"
+        ],
+        "names": [],
+        "mappings": ";AA2EA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC;EACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;EAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;EACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EACzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;EACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACrB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;EAC5B,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;;EAET,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EACrB;;EAEA,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;;IAEjB,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;MACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;MAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;MACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACjB;EACF;;EAEA,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACjB,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;;IAET,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IACnB;EACF;AACF;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;;EAElB,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACrB;;EAEA,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;;IAErB,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;MACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;MAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;MACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;MACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACjB;EACF;AACF;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;EAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;;EAEvB,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC;EACrB;;EAEA,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACvB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;IAErB,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE;MACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;MACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;MACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACjB;IACA,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3B;EACF;AACF",
+        "file": "/Users/nogamishota/takagi/src/pages/confirm.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n\nconst { contactState, send } = useContact();\nconst router = useRouter();\n\nconst clickSend = async () => {\n  try {\n    await send();\n\n    router.push(\"/completed\");\n  } catch {\n    router.push(\"/details\");\n  }\n};\n</script>\n\n<template>\n  <Navigate from=\"confirm\" />\n  <div class=\"contents\">\n    <dl class=\"form-area\">\n      <dt class=\"item\"><span class=\"title\">お名前(保護者様)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.parentName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(カタカナ)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.parentNameKana }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(お子様)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.childName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(カタカナ)</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.childNameKana }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">メールアドレス</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.email }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">電話番号</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.phoneNumber }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">通われている学校</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.schoolName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">学年</span></dt>\n      <dd class=\"label-list\">\n        <p>{{ contactState.grade }} 年</p>\n      </dd>\n    </dl>\n    <dl class=\"form-other-area\">\n      <dt class=\"item\"><span class=\"title\">学習状況や学習上の課題</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.messagAssignment }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">資料請求に関して</span></dt>\n      <dd class=\"input\">\n        <p>{{ contactState.messageDocument }}</p>\n      </dd>\n    </dl>\n  </div>\n  <div class=\"button-area\">\n    <AppButton title=\"送信する\" @click=\"clickSend\" />\n    <NuxtLink class=\"back\" to=\"/details\">\n      <p class=\"text\">戻る</p>\n      <img class=\"arrow\" :src=\"IMAGE.arrow\" />\n    </NuxtLink>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.contents {\n  margin: 40px auto 0;\n  max-width: 800px;\n  border-style: solid;\n  border-color: $white-blue;\n  border-width: 2px;\n  border-radius: 10px;\n}\n\n.form-area {\n  display: grid;\n  grid-template-columns: repeat(1, 1fr 2fr);\n  margin: 80px 30px 50px 100px;\n  gap: 50px;\n\n  > .item {\n    display: flex;\n    align-items: center;\n  }\n\n  > .input {\n    margin-left: 20px;\n\n    > .input-text {\n      padding: 2px;\n      min-width: 250px;\n      height: 30px;\n      font-size: 16px;\n    }\n  }\n\n  > .label-list {\n    display: flex;\n    margin-left: 20px;\n    gap: 10px;\n\n    > .label > .input {\n      margin-right: 2px;\n    }\n  }\n}\n\n.form-other-area {\n  margin-left: 100px;\n\n  > .item {\n    margin-bottom: 10px;\n  }\n\n  > .input {\n    margin: 0 0 50px 30px;\n\n    > .message {\n      font-family: inherit;\n      min-width: 520px;\n      height: 200px;\n      padding: 3px;\n      font-size: 16px;\n    }\n  }\n}\n\n.button-area {\n  display: flex;\n  position: relative;\n  max-width: 700px;\n  margin: 30px auto 100px;\n\n  > .button {\n    margin: 30px auto 0;\n  }\n\n  > .back {\n    position: absolute;\n    margin-top: 20px;\n    text-align: center;\n    justify-content: center;\n    width: 70px;\n    height: 70px;\n    color: $black;\n    background-color: $gray;\n    border-color: $black;\n    border-style: solid;\n    text-decoration: none;\n    border-radius: 9999px;\n\n    > .text {\n      margin-top: 6px;\n      padding: 0;\n      font-size: 16px;\n    }\n    > .arrow {\n      transform: rotate(180deg);\n    }\n  }\n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989030,
+      "end": 1717937989030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989030,
+      "end": 1717937989030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989030,
+      "end": 1717937989030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989030,
+      "end": 1717937989030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989030,
+      "end": 1717937989030,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.contents{border:2px solid #d4f2ff;border-radius:10px;margin:40px auto 0;max-width:800px}.form-area{display:grid;gap:50px;grid-template-columns:repeat(1,1fr 2fr);margin:80px 30px 50px 100px}.form-area>.item{align-items:center;display:flex}.form-area>.input{margin-left:20px}.form-area>.input>.input-text{font-size:16px;height:30px;min-width:250px;padding:2px}.form-area>.label-list{display:flex;gap:10px;margin-left:20px}.form-area>.label-list>.label>.input{margin-right:2px}.form-other-area{margin-left:100px}.form-other-area>.item{margin-bottom:10px}.form-other-area>.input{margin:0 0 50px 30px}.form-other-area>.input>.message{font-family:inherit;font-size:16px;height:200px;min-width:520px;padding:3px}.button-area{display:flex;margin:30px auto 100px;max-width:700px;position:relative}.button-area>.button{margin:30px auto 0}.button-area>.back{background-color:#f2f2f2;border-color:#000;border-radius:9999px;border-style:solid;color:#000;height:70px;justify-content:center;margin-top:20px;position:absolute;text-align:center;text-decoration:none;width:70px}.button-area>.back>.text{font-size:16px;margin-top:6px;padding:0}.button-area>.back>.arrow{transform:rotate(180deg)}",
+      "start": 1717937989030,
+      "end": 1717937989208,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/nogamishota/takagi/src/pages/confirm.vue",
+        "mappings": "AA2BA,OACE,sBAKF,UAJE,SACA,UAQF,IACE,eAGF,GACE,SACA,UC3CF,UAKE,yBACA,mBALA,mBACA,gBAOF,WACE,aAGA,SAFA,wCACA,4BAGA,iBAEE,mBADA,aAIF,kBACE,iBAEA,8BAIE,eADA,YADA,gBADA,YAOJ,uBACE,aAEA,SADA,iBAGA,qCACE,iBAKN,iBACE,kBAEA,uBACE,mBAGF,wBACE,qBAEA,iCACE,oBAIA,eAFA,aADA,gBAEA,YAMN,aACE,aAGA,uBADA,gBADA,kBAIA,qBACE,mBAGF,mBAQE,wBD9EG,CC+EH,iBDjFI,CCoFJ,qBAFA,mBAHA,UD/EI,CC8EJ,YAFA,uBAFA,gBADA,kBAEA,kBAQA,qBANA,WASA,yBAGE,eAFA,eACA,UAGF,0BACE",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/assets/scss/global.scss",
+          "/Users/nogamishota/takagi/src/pages/confirm.vue"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937989208,
+      "end": 1717937989208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989208,
+      "end": 1717937989208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989208,
+      "end": 1717937989208,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "*[data-v-687e8ebd],body[data-v-687e8ebd]{box-sizing:border-box}*[data-v-687e8ebd],body[data-v-687e8ebd],ul[data-v-687e8ebd]{margin:0;padding:0}img[data-v-687e8ebd]{max-width:100%}br[data-v-687e8ebd]{margin:0;padding:0}.contents[data-v-687e8ebd]{border:2px solid #d4f2ff;border-radius:10px;margin:40px auto 0;max-width:800px}.form-area[data-v-687e8ebd]{display:grid;gap:50px;grid-template-columns:repeat(1,1fr 2fr);margin:80px 30px 50px 100px}.form-area>.item[data-v-687e8ebd]{align-items:center;display:flex}.form-area>.input[data-v-687e8ebd]{margin-left:20px}.form-area>.input>.input-text[data-v-687e8ebd]{font-size:16px;height:30px;min-width:250px;padding:2px}.form-area>.label-list[data-v-687e8ebd]{display:flex;gap:10px;margin-left:20px}.form-area>.label-list>.label>.input[data-v-687e8ebd]{margin-right:2px}.form-other-area[data-v-687e8ebd]{margin-left:100px}.form-other-area>.item[data-v-687e8ebd]{margin-bottom:10px}.form-other-area>.input[data-v-687e8ebd]{margin:0 0 50px 30px}.form-other-area>.input>.message[data-v-687e8ebd]{font-family:inherit;font-size:16px;height:200px;min-width:520px;padding:3px}.button-area[data-v-687e8ebd]{display:flex;margin:30px auto 100px;max-width:700px;position:relative}.button-area>.button[data-v-687e8ebd]{margin:30px auto 0}.button-area>.back[data-v-687e8ebd]{background-color:#f2f2f2;border-color:#000;border-radius:9999px;border-style:solid;color:#000;height:70px;justify-content:center;margin-top:20px;position:absolute;text-align:center;text-decoration:none;width:70px}.button-area>.back>.text[data-v-687e8ebd]{font-size:16px;margin-top:6px;padding:0}.button-area>.back>.arrow[data-v-687e8ebd]{transform:rotate(180deg)}",
+      "start": 1717937989209,
+      "end": 1717937989209,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/nogamishota/takagi/src/pages/confirm.vue",
+        "mappings": "AAAA,yCAAO,qBAAqB,CAAC,6DAAU,QAAQ,CAAC,SAAS,CAAC,qBAAI,cAAc,CAAC,oBAAG,QAAQ,CAAC,SAAS,CAAC,2BAAU,wBAAwB,CAAC,kBAAkB,CAAC,kBAAkB,CAAC,eAAe,CAAC,4BAAW,YAAY,CAAC,QAAQ,CAAC,uCAAuC,CAAC,2BAA2B,CAAC,kCAAiB,kBAAkB,CAAC,YAAY,CAAC,mCAAkB,gBAAgB,CAAC,+CAA8B,cAAc,CAAC,WAAW,CAAC,eAAe,CAAC,WAAW,CAAC,wCAAuB,YAAY,CAAC,QAAQ,CAAC,gBAAgB,CAAC,sDAAqC,gBAAgB,CAAC,kCAAiB,iBAAiB,CAAC,wCAAuB,kBAAkB,CAAC,yCAAwB,oBAAoB,CAAC,kDAAiC,mBAAmB,CAAC,cAAc,CAAC,YAAY,CAAC,eAAe,CAAC,WAAW,CAAC,8BAAa,YAAY,CAAC,sBAAsB,CAAC,eAAe,CAAC,iBAAiB,CAAC,sCAAqB,kBAAkB,CAAC,oCAAmB,wBAAwB,CAAC,iBAAiB,CAAC,oBAAoB,CAAC,kBAAkB,CAAC,UAAU,CAAC,WAAW,CAAC,sBAAsB,CAAC,eAAe,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,oBAAoB,CAAC,UAAU,CAAC,0CAAyB,cAAc,CAAC,cAAc,CAAC,SAAS,CAAC,2CAA0B,wBAAwB",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/pages/confirm.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989209,
+      "end": 1717937989209,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989209,
+      "end": 1717937989209,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989209,
+      "end": 1717937989209,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989210,
+      "end": 1717937989210,
+      "order": "normal"
+    }
+  ]
+}

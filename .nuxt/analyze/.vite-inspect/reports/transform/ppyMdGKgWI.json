@@ -1,0 +1,222 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/AppButton.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-434c5216\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"title\" }\n\ntype Props = {\n  title: string;\n  to?: string;\n  isDisable?: boolean;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'AppButton',\n  props: {\n    title: {},\n    to: {},\n    isDisable: { type: Boolean }\n  },\n  setup(__props: any) {\n\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createBlock(_component_NuxtLink, {\n    class: _normalizeClass([\"button\", { 'is-disabled': _ctx.isDisable }]),\n    to: _ctx.to\n  }, {\n    default: _withCtx(() => [\n      _createElementVNode(\"p\", _hoisted_1, _toDisplayString(_ctx.title), 1)\n    ]),\n    _: 1\n  }, 8, [\"class\", \"to\"]))\n}\n}\n\n})",
+      "start": 1717937987722,
+      "end": 1717937987722
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937987722,
+      "end": 1717937987722,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937987722,
+      "end": 1717937987722,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937987722,
+      "end": 1717937987722,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1717937987722,
+      "end": 1717937987722,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-434c5216\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"title\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AppButton\",\n  props: {\n    title: {},\n    to: {},\n    isDisable: { type: Boolean }\n  },\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createBlock(_component_NuxtLink, {\n        class: _normalizeClass([\"button\", { \"is-disabled\": _ctx.isDisable }]),\n        to: _ctx.to\n      }, {\n        default: _withCtx(() => [\n          _createElementVNode(\"p\", _hoisted_1, _toDisplayString(_ctx.title), 1)\n        ]),\n        _: 1\n      }, 8, [\"class\", \"to\"]);\n    };\n  }\n});\n",
+      "start": 1717937987722,
+      "end": 1717937987968,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/AppButton.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-434c5216\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"title\" }\n\ntype Props = {\n  title: string;\n  to?: string;\n  isDisable?: boolean;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'AppButton',\n  props: {\n    title: {},\n    to: {},\n    isDisable: { type: Boolean }\n  },\n  setup(__props: any) {\n\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createBlock(_component_NuxtLink, {\n    class: _normalizeClass([\"button\", { 'is-disabled': _ctx.isDisable }]),\n    to: _ctx.to\n  }, {\n    default: _withCtx(() => [\n      _createElementVNode(\"p\", _hoisted_1, _toDisplayString(_ctx.title), 1)\n    ]),\n    _: 1\n  }, 8, [\"class\", \"to\"]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,mBAAmB,kBAAkB,sBAAsB,qBAAqB,oBAAoB,mBAAmB,kBAAkB,iBAAiB,WAAW,UAAU,aAAa,YAAY,eAAe,cAAc,eAAe,cAAc,cAAc,mBAAmB;AAE5S,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAAa,EAAE,OAAO,QAAQ;AASpC,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,OAAO,CAAC;AAAA,IACR,IAAI,CAAC;AAAA,IACL,WAAW,EAAE,MAAM,QAAQ;AAAA,EAC7B;AAAA,EACA,MAAM,SAAc;AAItB,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,sBAAsB,kBAAkB,UAAU;AAExD,aAAQ,WAAW,GAAG,aAAa,qBAAqB;AAAA,QACtD,OAAO,gBAAgB,CAAC,UAAU,EAAE,eAAe,KAAK,UAAU,CAAC,CAAC;AAAA,QACpE,IAAI,KAAK;AAAA,MACX,GAAG;AAAA,QACD,SAAS,SAAS,MAAM;AAAA,UACtB,oBAAoB,KAAK,YAAY,iBAAiB,KAAK,KAAK,GAAG,CAAC;AAAA,QACtE,CAAC;AAAA,QACD,GAAG;AAAA,MACL,GAAG,GAAG,CAAC,SAAS,IAAI,CAAC;AAAA,IACvB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937987968,
+      "end": 1717937987968,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937987968,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/Users/nogamishota/takagi/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, normalizeClass as _normalizeClass, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-434c5216\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"title\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"AppButton\",\n  props: {\n    title: {},\n    to: {},\n    isDisable: { type: Boolean }\n  },\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = __nuxt_component_0;\n      return _openBlock(), _createBlock(_component_NuxtLink, {\n        class: _normalizeClass([\"button\", { \"is-disabled\": _ctx.isDisable }]),\n        to: _ctx.to\n      }, {\n        default: _withCtx(() => [\n          _createElementVNode(\"p\", _hoisted_1, _toDisplayString(_ctx.title), 1)\n        ]),\n        _: 1\n      }, 8, [\"class\", \"to\"]);\n    };\n  }\n});\n",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937987969,
+      "end": 1717937987969,
+      "order": "normal"
+    }
+  ]
+}

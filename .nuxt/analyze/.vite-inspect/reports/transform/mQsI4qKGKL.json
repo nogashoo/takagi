@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, unref as _unref, normalizeClass as _normalizeClass, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-4382c15a\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"top\" }, \"資料請求\", -1))\nconst _hoisted_2 = { class: \"nav\" }\nconst _hoisted_3 = { class: \"number\" }\nconst _hoisted_4 = [\"src\"]\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"line1\" }, null, -1))\nconst _hoisted_6 = [\"src\"]\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"line2\" }, null, -1))\nconst _hoisted_8 = [\"src\"]\nconst _hoisted_9 = { class: \"state\" }\n\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navigate',\n  props: {\n    from: {}\n  },\n  setup(__props: any) {\n\nconst props = __props;\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"img\", {\n          class: \"image\",\n          src: _unref(one)\n        }, null, 8, _hoisted_4),\n        _hoisted_5,\n        _createElementVNode(\"img\", {\n          class: \"image -center\",\n          src: _unref(two)\n        }, null, 8, _hoisted_6),\n        _hoisted_7,\n        _createElementVNode(\"img\", {\n          class: \"image\",\n          src: _unref(three)\n        }, null, 8, _hoisted_8)\n      ]),\n      _createElementVNode(\"div\", _hoisted_9, [\n        _createElementVNode(\"p\", {\n          class: _normalizeClass([\"text\", { '-active': fromDetails.value }])\n        }, \"入力\", 2),\n        _createElementVNode(\"p\", {\n          class: _normalizeClass([\"text -center\", { '-active': fromConfirm.value }])\n        }, \"確認\", 2),\n        _createElementVNode(\"p\", {\n          class: _normalizeClass([\"text\", { '-active': fromCompleted.value }])\n        }, \"完了\", 2)\n      ])\n    ])\n  ], 64))\n}\n}\n\n})",
+      "start": 1717937987721,
+      "end": 1717937987721
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937987721,
+      "end": 1717937987721,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937987721,
+      "end": 1717937987721,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937987721,
+      "end": 1717937987721,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1717937987721,
+      "end": 1717937987721,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, normalizeClass as _normalizeClass, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-4382c15a\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"h1\", { class: \"top\" }, \"資料請求\", -1));\nconst _hoisted_2 = { class: \"nav\" };\nconst _hoisted_3 = { class: \"number\" };\nconst _hoisted_4 = [\"src\"];\nconst _hoisted_5 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line1\" }, null, -1));\nconst _hoisted_6 = [\"src\"];\nconst _hoisted_7 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line2\" }, null, -1));\nconst _hoisted_8 = [\"src\"];\nconst _hoisted_9 = { class: \"state\" };\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Navigate\",\n  props: {\n    from: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const fromDetails = computed(() => props.from === \"details\");\n    const fromConfirm = computed(() => props.from === \"confirm\");\n    const fromCompleted = computed(() => props.from === \"completed\");\n    const one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\n    const two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\n    const three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(_Fragment, null, [\n        _hoisted_1,\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"div\", _hoisted_3, [\n            _createElementVNode(\"img\", {\n              class: \"image\",\n              src: _unref(one)\n            }, null, 8, _hoisted_4),\n            _hoisted_5,\n            _createElementVNode(\"img\", {\n              class: \"image -center\",\n              src: _unref(two)\n            }, null, 8, _hoisted_6),\n            _hoisted_7,\n            _createElementVNode(\"img\", {\n              class: \"image\",\n              src: _unref(three)\n            }, null, 8, _hoisted_8)\n          ]),\n          _createElementVNode(\"div\", _hoisted_9, [\n            _createElementVNode(\"p\", {\n              class: _normalizeClass([\"text\", { \"-active\": fromDetails.value }])\n            }, \"入力\", 2),\n            _createElementVNode(\"p\", {\n              class: _normalizeClass([\"text -center\", { \"-active\": fromConfirm.value }])\n            }, \"確認\", 2),\n            _createElementVNode(\"p\", {\n              class: _normalizeClass([\"text\", { \"-active\": fromCompleted.value }])\n            }, \"完了\", 2)\n          ])\n        ])\n      ], 64);\n    };\n  }\n});\n",
+      "start": 1717937987721,
+      "end": 1717937987877,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, unref as _unref, normalizeClass as _normalizeClass, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-4382c15a\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"top\" }, \"資料請求\", -1))\nconst _hoisted_2 = { class: \"nav\" }\nconst _hoisted_3 = { class: \"number\" }\nconst _hoisted_4 = [\"src\"]\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"line1\" }, null, -1))\nconst _hoisted_6 = [\"src\"]\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"line2\" }, null, -1))\nconst _hoisted_8 = [\"src\"]\nconst _hoisted_9 = { class: \"state\" }\n\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navigate',\n  props: {\n    from: {}\n  },\n  setup(__props: any) {\n\nconst props = __props;\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"img\", {\n          class: \"image\",\n          src: _unref(one)\n        }, null, 8, _hoisted_4),\n        _hoisted_5,\n        _createElementVNode(\"img\", {\n          class: \"image -center\",\n          src: _unref(two)\n        }, null, 8, _hoisted_6),\n        _hoisted_7,\n        _createElementVNode(\"img\", {\n          class: \"image\",\n          src: _unref(three)\n        }, null, 8, _hoisted_8)\n      ]),\n      _createElementVNode(\"div\", _hoisted_9, [\n        _createElementVNode(\"p\", {\n          class: _normalizeClass([\"text\", { '-active': fromDetails.value }])\n        }, \"入力\", 2),\n        _createElementVNode(\"p\", {\n          class: _normalizeClass([\"text -center\", { '-active': fromConfirm.value }])\n        }, \"確認\", 2),\n        _createElementVNode(\"p\", {\n          class: _normalizeClass([\"text\", { '-active': fromCompleted.value }])\n        }, \"完了\", 2)\n      ])\n    ])\n  ], 64))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,SAAS,QAAQ,kBAAkB,iBAAiB,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAEjQ,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,MAAM,EAAE,OAAO,MAAM,GAAG,QAAQ,EAAE,CAAC;AACxH,MAAM,aAAa,EAAE,OAAO,MAAM;AAClC,MAAM,aAAa,EAAE,OAAO,SAAS;AACrC,MAAM,aAAa,CAAC,KAAK;AACzB,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,OAAO,QAAQ,GAAG,MAAM,EAAE,CAAC;AACzH,MAAM,aAAa,CAAC,KAAK;AACzB,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,OAAO,QAAQ,GAAG,MAAM,EAAE,CAAC;AACzH,MAAM,aAAa,CAAC,KAAK;AACzB,MAAM,aAAa,EAAE,OAAO,QAAQ;AAEpC,SAAS,aAAa;AACtB,SAAS,gBAAgB;AAOzB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,MAAM,CAAC;AAAA,EACT;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,UAAM,cAAc,SAAS,MAAM,MAAM,SAAS,SAAS;AAC3D,UAAM,cAAc,SAAS,MAAM,MAAM,SAAS,SAAS;AAC3D,UAAM,gBAAgB,SAAS,MAAM,MAAM,SAAS,WAAW;AAE/D,UAAM,MAAM,YAAY,QAAQ,MAAM,YAAY,MAAM;AACxD,UAAM,MAAM,YAAY,QAAQ,MAAM,YAAY,MAAM;AACxD,UAAM,QAAQ,cAAc,QAAQ,MAAM,cAAc,MAAM;AAE9D,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,WAAW,MAAM;AAAA,QACzD;AAAA,QACA,oBAAoB,OAAO,YAAY;AAAA,UACrC,oBAAoB,OAAO,YAAY;AAAA,YACrC,oBAAoB,OAAO;AAAA,cACzB,OAAO;AAAA,cACP,KAAK,OAAO,GAAG;AAAA,YACjB,GAAG,MAAM,GAAG,UAAU;AAAA,YACtB;AAAA,YACA,oBAAoB,OAAO;AAAA,cACzB,OAAO;AAAA,cACP,KAAK,OAAO,GAAG;AAAA,YACjB,GAAG,MAAM,GAAG,UAAU;AAAA,YACtB;AAAA,YACA,oBAAoB,OAAO;AAAA,cACzB,OAAO;AAAA,cACP,KAAK,OAAO,KAAK;AAAA,YACnB,GAAG,MAAM,GAAG,UAAU;AAAA,UACxB,CAAC;AAAA,UACD,oBAAoB,OAAO,YAAY;AAAA,YACrC,oBAAoB,KAAK;AAAA,cACvB,OAAO,gBAAgB,CAAC,QAAQ,EAAE,WAAW,YAAY,MAAM,CAAC,CAAC;AAAA,YACnE,GAAG,MAAM,CAAC;AAAA,YACV,oBAAoB,KAAK;AAAA,cACvB,OAAO,gBAAgB,CAAC,gBAAgB,EAAE,WAAW,YAAY,MAAM,CAAC,CAAC;AAAA,YAC3E,GAAG,MAAM,CAAC;AAAA,YACV,oBAAoB,KAAK;AAAA,cACvB,OAAO,gBAAgB,CAAC,QAAQ,EAAE,WAAW,cAAc,MAAM,CAAC,CAAC;AAAA,YACrE,GAAG,MAAM,CAAC;AAAA,UACZ,CAAC;AAAA,QACH,CAAC;AAAA,MACH,GAAG,EAAE;AAAA,IACP;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937987877,
+      "end": 1717937987877,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937987877,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937987878,
+      "end": 1717937987878,
+      "order": "normal"
+    }
+  ]
+}

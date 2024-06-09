@@ -1,0 +1,290 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/pages/details.vue?vue&type=style&index=0&scoped=07797568&lang.scss?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.contents {\n  margin: 40px auto 0;\n  max-width: 800px;\n  border-style: solid;\n  border-color: $white-blue;\n  border-width: 2px;\n  border-radius: 10px;\n}\n\n.form-area {\n  display: grid;\n  grid-template-columns: repeat(1, 1fr 2fr);\n  margin: 80px 30px 50px 100px;\n  gap: 50px;\n\n  > .item {\n    display: flex;\n    align-items: center;\n\n    &::after {\n      content: \"※必須\";\n      font-size: 10px;\n      font-weight: bold;\n      color: $red;\n      margin: 5px 0 0 5px;\n    }\n  }\n\n  > .input {\n    margin-left: 20px;\n\n    > .input-text {\n      padding: 2px;\n      min-width: 250px;\n      height: 30px;\n      font-size: 16px;\n\n      &.-error {\n        background-color: $lite-red;\n        border-color: $lite-red;\n        border-radius: 2px;\n      }\n    }\n\n    > .error {\n      position: absolute;\n      font-size: 12px;\n      font-weight: bold;\n      color: $red;\n    }\n  }\n\n  > .label-list {\n    display: flex;\n    margin-left: 20px;\n    gap: 10px;\n\n    > .label > .input {\n      margin-right: 2px;\n    }\n  }\n}\n\n.form-other-area {\n  margin-left: 100px;\n\n  > .item {\n    margin-bottom: 10px;\n  }\n\n  > .input {\n    margin: 0 0 50px 30px;\n\n    > .message {\n      font-family: inherit;\n      min-width: 520px;\n      height: 200px;\n      padding: 3px;\n      font-size: 16px;\n    }\n  }\n}\n\n.button {\n  display: block;\n  margin: 30px auto 100px;\n}\n",
+      "start": 1717937989019,
+      "end": 1717937989019,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/pages/details.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "/Users/nogamishota/takagi/src/pages/details.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport { useForm, useField } from \"vee-validate/dist/vee-validate\";\nimport { object, string } from \"yup\";\nimport { GradeType } from \"~/composables/gradeType\";\n\nconst { contactState, setContact } = useContact();\nconst router = useRouter();\n\nconst validationSchema = object({\n  parentName: string()\n    .required(\"入力必須項目です\")\n    .nullable(\"入力必須項目です\")\n    .transform((curr, orig) => (orig.length > 0 ? null : curr)),\n  parentNameKana: string().required(\"入力必須項目です\"),\n  childName: string().required(\"入力必須項目です\"),\n  childNameKana: string().required(\"入力必須項目です\"),\n  phoneNumber: string()\n    .matches(/^[0-9]{10,11}$/, \"有効な電話番号を入力してください\")\n    .required(\"入力必須項目です\"),\n  email: string()\n    .required(\"入力必須項目です\")\n    .email(\"有効なメールアドレスを入力してください\"),\n  schoolName: string().required(\"入力必須項目です\"),\n  messagAssignment: string(),\n  messageDocument: string(),\n});\n\nconst { errors } = useForm({\n  validationSchema: validationSchema,\n});\n\nconst { value: parentName, errorMessage: parentNameError } = useField(\n  \"parentName\",\n  (value) => {\n    if (!value) {\n      return \"this field is required\";\n    }\n    return true;\n  },\n  {\n    initialValue: contactState.value.parentName,\n  }\n);\nconst { value: parentNameKana, errorMessage: parentNameKanaError } = useField(\n  \"parentNameKana\",\n  undefined,\n  {\n    initialValue: contactState.value.parentNameKana,\n  }\n);\nconst { value: childName, errorMessage: childNameError } = useField(\n  \"childName\",\n  undefined,\n  {\n    initialValue: contactState.value.childName,\n  }\n);\nconst { value: childNameKana, errorMessage: childNameKanaError } = useField(\n  \"childNameKana\",\n  undefined,\n  {\n    initialValue: contactState.value.childNameKana,\n  }\n);\nconst { value: phoneNumber, errorMessage: phoneNumberError } = useField(\n  \"phoneNumber\",\n  undefined,\n  {\n    initialValue: contactState.value.phoneNumber,\n  }\n);\nconst { value: email, errorMessage: emailError } = useField(\n  \"email\",\n  undefined,\n  {\n    initialValue: contactState.value.email,\n  }\n);\nconst { value: schoolName, errorMessage: schoolNameError } = useField(\n  \"schoolName\",\n  undefined,\n  {\n    initialValue: contactState.value.schoolName,\n  }\n);\nconst { value: grade, errorMessage: gradeError } = useField(\n  \"grade\",\n  undefined,\n  {\n    initialValue: contactState.value.grade,\n  }\n);\nconst { value: messagAssignment } = useField(\"messagAssignment\", undefined, {\n  initialValue: contactState.value.messagAssignment,\n});\nconst { value: messageDocument } = useField(\"messageDocument\", undefined, {\n  initialValue: contactState.value.messageDocument,\n});\n\nconst isDisable = computed(() => {\n  return !Boolean(\n    parentName.value &&\n      parentNameKana.value &&\n      childName.value &&\n      childNameKana.value &&\n      phoneNumber.value &&\n      email.value &&\n      schoolName.value &&\n      grade.value\n  );\n});\n\nconst save = async () => {\n  const applyValues = {\n    parentName: parentName.value,\n    parentNameKana: parentNameKana.value,\n    childName: childName.value,\n    childNameKana: childNameKana.value,\n    phoneNumber: phoneNumber.value,\n    email: email.value,\n    schoolName: schoolName.value,\n    grade: grade.value,\n    messagAssignment: messagAssignment.value,\n    messageDocument: messageDocument.value,\n  };\n\n  setContact(applyValues);\n\n  router.push(\"/confirm\");\n};\n</script>\n\n<template>\n  <Navigate from=\"details\" />\n  <form class=\"contents\">\n    <dl class=\"form-area\">\n      <dt class=\"item\"><span class=\"title\">お名前(保護者様)</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"parentName\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.parentName }\"\n          type=\"text\"\n          name=\"parentName\"\n          placeholder=\"山田 太郎\"\n          required\n        />\n        <p class=\"error\">{{ errors.parentName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(カタカナ)</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"parentNameKana\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.parentNameKana }\"\n          type=\"text\"\n          name=\"parentNameKana\"\n          placeholder=\"ヤマダ タロウ\"\n          required\n        />\n        <p class=\"error\">{{ errors.parentNameKana }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(お子様)</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"childName\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.childName }\"\n          type=\"text\"\n          name=\"childName\"\n          placeholder=\"山田 花子\"\n          required\n        />\n        <p class=\"error\">{{ errors.childName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">お名前(カタカナ)</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"childNameKana\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.childNameKana }\"\n          type=\"text\"\n          name=\"childNameKana\"\n          placeholder=\"ヤマダ ハナコ\"\n          required\n        />\n        <p class=\"error\">{{ errors.childNameKana }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">メールアドレス</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"email\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.email }\"\n          type=\"email\"\n          name=\"email\"\n          placeholder=\"email@examlpe.com\"\n          required\n        />\n        <p class=\"error\">{{ errors.email }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">電話番号</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"phoneNumber\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.phoneNumber }\"\n          type=\"tel\"\n          name=\"phoneNumber\"\n          placeholder=\"00000000000\"\n          required\n        />\n        <p class=\"error\">{{ errors.phoneNumber }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">通われている学校</span></dt>\n      <dd class=\"input\">\n        <input\n          v-model=\"schoolName\"\n          class=\"input-text\"\n          :class=\"{ '-error': errors.schoolName }\"\n          type=\"text\"\n          name=\"schoolName\"\n          placeholder=\"学校名\"\n          required\n        />\n        <p class=\"error\">{{ errors.schoolName }}</p>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">学年</span></dt>\n      <dd class=\"label-list\">\n        <label class=\"label\">\n          <input\n            v-model=\"grade\"\n            :value=\"GradeType.ONE\"\n            class=\"input\"\n            type=\"radio\"\n            name=\"grade\"\n          />1年\n        </label>\n        <label class=\"label\">\n          <input\n            v-model=\"grade\"\n            :value=\"GradeType.TWO\"\n            class=\"input\"\n            type=\"radio\"\n            name=\"grade\"\n          />2年\n        </label>\n        <label class=\"label\">\n          <input\n            v-model=\"grade\"\n            :value=\"GradeType.THREE\"\n            class=\"input\"\n            type=\"radio\"\n            name=\"grade\"\n          />3年\n        </label>\n        <label class=\"label\">\n          <input\n            v-model=\"grade\"\n            :value=\"GradeType.FOUR\"\n            class=\"input\"\n            type=\"radio\"\n            name=\"grade\"\n          />4年\n        </label>\n        <label class=\"label\">\n          <input\n            v-model=\"grade\"\n            :value=\"GradeType.FIVE\"\n            class=\"input\"\n            type=\"radio\"\n            name=\"grade\"\n          />5年\n        </label>\n        <label class=\"label\">\n          <input\n            v-model=\"grade\"\n            :value=\"GradeType.SIX\"\n            class=\"input\"\n            type=\"radio\"\n            name=\"grade\"\n          />6年\n        </label>\n      </dd>\n    </dl>\n    <dl class=\"form-other-area\">\n      <dt class=\"item\"><span class=\"title\">学習状況や学習上の課題</span></dt>\n      <dd class=\"input\">\n        <textarea\n          v-model=\"messagAssignment\"\n          class=\"message\"\n          name=\"messagAssignment\"\n        ></textarea>\n      </dd>\n      <dt class=\"item\"><span class=\"title\">資料請求に関して</span></dt>\n      <dd class=\"input\">\n        <textarea\n          v-model=\"messageDocument\"\n          class=\"message\"\n          name=\"messageDocument\"\n        ></textarea>\n      </dd>\n    </dl>\n  </form>\n  <AppButton\n    class=\"button\"\n    title=\"確認画面へ\"\n    :isDisable=\"isDisable\"\n    @click=\"save\"\n  />\n</template>\n\n<style lang=\"scss\" scoped>\n.contents {\n  margin: 40px auto 0;\n  max-width: 800px;\n  border-style: solid;\n  border-color: $white-blue;\n  border-width: 2px;\n  border-radius: 10px;\n}\n\n.form-area {\n  display: grid;\n  grid-template-columns: repeat(1, 1fr 2fr);\n  margin: 80px 30px 50px 100px;\n  gap: 50px;\n\n  > .item {\n    display: flex;\n    align-items: center;\n\n    &::after {\n      content: \"※必須\";\n      font-size: 10px;\n      font-weight: bold;\n      color: $red;\n      margin: 5px 0 0 5px;\n    }\n  }\n\n  > .input {\n    margin-left: 20px;\n\n    > .input-text {\n      padding: 2px;\n      min-width: 250px;\n      height: 30px;\n      font-size: 16px;\n\n      &.-error {\n        background-color: $lite-red;\n        border-color: $lite-red;\n        border-radius: 2px;\n      }\n    }\n\n    > .error {\n      position: absolute;\n      font-size: 12px;\n      font-weight: bold;\n      color: $red;\n    }\n  }\n\n  > .label-list {\n    display: flex;\n    margin-left: 20px;\n    gap: 10px;\n\n    > .label > .input {\n      margin-right: 2px;\n    }\n  }\n}\n\n.form-other-area {\n  margin-left: 100px;\n\n  > .item {\n    margin-bottom: 10px;\n  }\n\n  > .input {\n    margin: 0 0 50px 30px;\n\n    > .message {\n      font-family: inherit;\n      min-width: 520px;\n      height: 200px;\n      padding: 3px;\n      font-size: 16px;\n    }\n  }\n}\n\n.button {\n  display: block;\n  margin: 30px auto 100px;\n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989019,
+      "end": 1717937989019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989019,
+      "end": 1717937989019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989019,
+      "end": 1717937989019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989019,
+      "end": 1717937989019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989019,
+      "end": 1717937989019,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "@charset \"UTF-8\";*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.contents{border:2px solid #d4f2ff;border-radius:10px;margin:40px auto 0;max-width:800px}.form-area{display:grid;gap:50px;grid-template-columns:repeat(1,1fr 2fr);margin:80px 30px 50px 100px}.form-area>.item{align-items:center;display:flex}.form-area>.item:after{color:red;content:\"※必須\";font-size:10px;font-weight:700;margin:5px 0 0 5px}.form-area>.input{margin-left:20px}.form-area>.input>.input-text{font-size:16px;height:30px;min-width:250px;padding:2px}.form-area>.input>.input-text.-error{background-color:rgba(255,0,0,.2);border-color:rgba(255,0,0,.2);border-radius:2px}.form-area>.input>.error{color:red;font-size:12px;font-weight:700;position:absolute}.form-area>.label-list{display:flex;gap:10px;margin-left:20px}.form-area>.label-list>.label>.input{margin-right:2px}.form-other-area{margin-left:100px}.form-other-area>.item{margin-bottom:10px}.form-other-area>.input{margin:0 0 50px 30px}.form-other-area>.input>.message{font-family:inherit;font-size:16px;height:200px;min-width:520px;padding:3px}.button{display:block;margin:30px auto 100px}",
+      "start": 1717937989019,
+      "end": 1717937989155,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/nogamishota/takagi/src/pages/details.vue",
+        "mappings": "AAoBI,iBCOJ,OACE,sBAKF,UAJE,SACA,UAQF,IACE,eAGF,GACE,SACA,UD3CF,UAKE,yBACA,mBALA,mBACA,gBAOF,WACE,aAGA,SAFA,wCACA,4BAGA,iBAEE,mBADA,aAGA,uBAIE,SCdA,CDWA,cACA,eACA,gBAEA,mBAIJ,kBACE,iBAEA,8BAIE,eADA,YADA,gBADA,YAKA,qCACE,iCCxBG,CDyBH,6BCzBG,CD0BH,kBAIJ,yBAIE,SCvCA,CDqCA,eACA,gBAFA,kBAOJ,uBACE,aAEA,SADA,iBAGA,qCACE,iBAKN,iBACE,kBAEA,uBACE,mBAGF,wBACE,qBAEA,iCACE,oBAIA,eAFA,aADA,gBAEA,YAMN,QACE,cACA",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/pages/details.vue",
+          "/Users/nogamishota/takagi/src/assets/scss/global.scss"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937989155,
+      "end": 1717937989155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989155,
+      "end": 1717937989155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989155,
+      "end": 1717937989155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "@charset \"UTF-8\";*[data-v-07797568],body[data-v-07797568]{box-sizing:border-box}*[data-v-07797568],body[data-v-07797568],ul[data-v-07797568]{margin:0;padding:0}img[data-v-07797568]{max-width:100%}br[data-v-07797568]{margin:0;padding:0}.contents[data-v-07797568]{border:2px solid #d4f2ff;border-radius:10px;margin:40px auto 0;max-width:800px}.form-area[data-v-07797568]{display:grid;gap:50px;grid-template-columns:repeat(1,1fr 2fr);margin:80px 30px 50px 100px}.form-area>.item[data-v-07797568]{align-items:center;display:flex}.form-area>.item[data-v-07797568]:after{color:red;content:\"※必須\";font-size:10px;font-weight:700;margin:5px 0 0 5px}.form-area>.input[data-v-07797568]{margin-left:20px}.form-area>.input>.input-text[data-v-07797568]{font-size:16px;height:30px;min-width:250px;padding:2px}.form-area>.input>.input-text.-error[data-v-07797568]{background-color:rgba(255,0,0,.2);border-color:rgba(255,0,0,.2);border-radius:2px}.form-area>.input>.error[data-v-07797568]{color:red;font-size:12px;font-weight:700;position:absolute}.form-area>.label-list[data-v-07797568]{display:flex;gap:10px;margin-left:20px}.form-area>.label-list>.label>.input[data-v-07797568]{margin-right:2px}.form-other-area[data-v-07797568]{margin-left:100px}.form-other-area>.item[data-v-07797568]{margin-bottom:10px}.form-other-area>.input[data-v-07797568]{margin:0 0 50px 30px}.form-other-area>.input>.message[data-v-07797568]{font-family:inherit;font-size:16px;height:200px;min-width:520px;padding:3px}.button[data-v-07797568]{display:block;margin:30px auto 100px}",
+      "start": 1717937989155,
+      "end": 1717937989156,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/nogamishota/takagi/src/pages/details.vue",
+        "mappings": "AAAA,gBAAgB,CAAC,yCAAO,qBAAqB,CAAC,6DAAU,QAAQ,CAAC,SAAS,CAAC,qBAAI,cAAc,CAAC,oBAAG,QAAQ,CAAC,SAAS,CAAC,2BAAU,wBAAwB,CAAC,kBAAkB,CAAC,kBAAkB,CAAC,eAAe,CAAC,4BAAW,YAAY,CAAC,QAAQ,CAAC,uCAAuC,CAAC,2BAA2B,CAAC,kCAAiB,kBAAkB,CAAC,YAAY,CAAC,wCAAuB,SAAS,CAAC,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,kBAAkB,CAAC,mCAAkB,gBAAgB,CAAC,+CAA8B,cAAc,CAAC,WAAW,CAAC,eAAe,CAAC,WAAW,CAAC,sDAAqC,iCAAiC,CAAC,6BAA6B,CAAC,iBAAiB,CAAC,0CAAyB,SAAS,CAAC,cAAc,CAAC,eAAe,CAAC,iBAAiB,CAAC,wCAAuB,YAAY,CAAC,QAAQ,CAAC,gBAAgB,CAAC,sDAAqC,gBAAgB,CAAC,kCAAiB,iBAAiB,CAAC,wCAAuB,kBAAkB,CAAC,yCAAwB,oBAAoB,CAAC,kDAAiC,mBAAmB,CAAC,cAAc,CAAC,YAAY,CAAC,eAAe,CAAC,WAAW,CAAC,yBAAQ,aAAa,CAAC,sBAAsB",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/pages/details.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \"@charset \\\"UTF-8\\\";*[data-v-07797568],body[data-v-07797568]{box-sizing:border-box}*[data-v-07797568],body[data-v-07797568],ul[data-v-07797568]{margin:0;padding:0}img[data-v-07797568]{max-width:100%}br[data-v-07797568]{margin:0;padding:0}.contents[data-v-07797568]{border:2px solid #d4f2ff;border-radius:10px;margin:40px auto 0;max-width:800px}.form-area[data-v-07797568]{display:grid;gap:50px;grid-template-columns:repeat(1,1fr 2fr);margin:80px 30px 50px 100px}.form-area>.item[data-v-07797568]{align-items:center;display:flex}.form-area>.item[data-v-07797568]:after{color:red;content:\\\"※必須\\\";font-size:10px;font-weight:700;margin:5px 0 0 5px}.form-area>.input[data-v-07797568]{margin-left:20px}.form-area>.input>.input-text[data-v-07797568]{font-size:16px;height:30px;min-width:250px;padding:2px}.form-area>.input>.input-text.-error[data-v-07797568]{background-color:rgba(255,0,0,.2);border-color:rgba(255,0,0,.2);border-radius:2px}.form-area>.input>.error[data-v-07797568]{color:red;font-size:12px;font-weight:700;position:absolute}.form-area>.label-list[data-v-07797568]{display:flex;gap:10px;margin-left:20px}.form-area>.label-list>.label>.input[data-v-07797568]{margin-right:2px}.form-other-area[data-v-07797568]{margin-left:100px}.form-other-area>.item[data-v-07797568]{margin-bottom:10px}.form-other-area>.input[data-v-07797568]{margin:0 0 50px 30px}.form-other-area>.input>.message[data-v-07797568]{font-family:inherit;font-size:16px;height:200px;min-width:520px;padding:3px}.button[data-v-07797568]{display:block;margin:30px auto 100px}\"",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989156,
+      "end": 1717937989156,
+      "order": "normal"
+    }
+  ]
+}

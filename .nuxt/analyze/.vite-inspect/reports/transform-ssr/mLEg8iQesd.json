@@ -1,0 +1,290 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Header.vue?vue&type=style&index=0&scoped=6720485a&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.header {\n  display: flex;\n  position: fixed;\n  width: 100%;\n  height: 75px;\n  top: 0;\n  justify-content: space-between;\n  margin-left: calc(50% - 50vw);\n  margin-right: calc(50% - 50vw);\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);\n  background-color: $white;\n  z-index: 9999;\n}\n\n.logo {\n  display: flex;\n  margin: auto 0 auto 10px;\n\n  > .logo {\n    display: flex;\n    width: 60px;\n    height: 60px;\n  }\n\n  > .takagi {\n    padding-top: 5px;\n    padding-left: 10px;\n    width: 120px;\n    height: 55px;\n  }\n}\n\n.contents {\n  margin: auto 100px auto 10px;\n\n  > .list {\n    display: flex;\n    list-style: none;\n    padding-left: 0;\n    gap: 25px;\n\n    > .title > .link {\n      color: $black;\n      text-decoration: none;\n\n      &:hover {\n        color: $blue-line;\n      }\n    }\n  }\n}\n\n.sns {\n  display: flex;\n  margin: auto 30px auto 10px;\n  gap: 15px;\n\n  > .link > .instagram {\n    margin-top: 2px;\n    width: 30px;\n    height: 30px;\n  }\n\n  > .link > .youtube {\n    width: 35px;\n    height: 35px;\n  }\n}\n\n.link {\n  color: $black;\n  text-decoration: none;\n\n  &:hover {\n    color: $blue-line;\n  }\n}\n\n.dropdown__lists {\n  display: none;\n  position: absolute;\n  margin-top: 20px;\n  width: 150px;\n  background-color: $white-blue1;\n  border-color: $black;\n  transition: 0.2s;\n\n  ::before {\n    content: \"\";\n    position: absolute;\n    pointer-events: none;\n    top: -30px;\n    left: 20%;\n    margin-left: -15px;\n    border: 15px solid transparent;\n    border-bottom: 15px solid $white-blue1;\n  }\n\n  > .dropdown__list {\n    display: flex;\n    height: 40px;\n    text-decoration: none;\n    align-items: center;\n    cursor: pointer;\n\n    &:hover {\n      display: flex;\n      background-color: $white-blue;\n    }\n\n    > .link {\n      margin-left: 5px;\n      color: $black;\n    }\n  }\n}\n\n.gnavi__list {\n  padding: 20px 0;\n\n  &:hover {\n    overflow: visible;\n\n    > .dropdown__lists {\n      overflow: visible;\n      display: block;\n      border-radius: 2px;\n    }\n  }\n}\n",
+      "start": 1717937989405,
+      "end": 1717937989405,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Header.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "/Users/nogamishota/takagi/src/components/Header.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n</script>\n\n<template>\n  <header class=\"header\">\n    <NuxtLink to=\"/\" class=\"logo\">\n      <img class=\"logo\" :src=\"IMAGE.logo\" />\n      <img class=\"takagi\" :src=\"IMAGE.takagi\" />\n    </NuxtLink>\n    <nav class=\"contents\">\n      <ul class=\"list\">\n        <li class=\"gnavi__list\">\n          <NuxtLink class=\"link\" to=\"/\">高木塾について</NuxtLink>\n          <ul class=\"dropdown__lists\">\n            <li class=\"dropdown__list\">\n              <NuxtLink class=\"link\" to=\"/\">会社概要</NuxtLink>\n            </li>\n            <li class=\"dropdown__list\">\n              <NuxtLink class=\"link\" to=\"/\">授業料一覧</NuxtLink>\n            </li>\n            <li class=\"dropdown__list\">\n              <NuxtLink class=\"link\" to=\"/staff\">スタッフ紹介</NuxtLink>\n            </li>\n          </ul>\n        </li>\n        <li class=\"gnavi__list\">\n          <NuxtLink class=\"link\" to=\"/\">塾生の声</NuxtLink>\n        </li>\n        <li class=\"gnavi__list\">\n          <NuxtLink class=\"link\" to=\"/\">塾長のブログ</NuxtLink>\n        </li>\n        <li class=\"gnavi__list\">\n          <NuxtLink class=\"link\" to=\"/\">お問い合わせ</NuxtLink>\n          <ul class=\"dropdown__lists\">\n            <li class=\"dropdown__list\">\n              <NuxtLink class=\"link\" to=\"/\">資料請求</NuxtLink>\n            </li>\n            <li class=\"dropdown__list\">\n              <NuxtLink class=\"link\" to=\"/\">採用情報</NuxtLink>\n            </li>\n            <li class=\"dropdown__list\">\n              <NuxtLink class=\"link\" to=\"/\">よくある質問</NuxtLink>\n            </li>\n          </ul>\n        </li>\n      </ul>\n    </nav>\n    <div class=\"sns\">\n      <a\n        class=\"link\"\n        href=\"https://instagram.com/oyayubidesu?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr\"\n      >\n        <img class=\"instagram\" :src=\"IMAGE.instagram\" />\n      </a>\n      <a\n        class=\"link\"\n        href=\"https://youtube.com/@user-rw3ds2wf1b?si=uyQzKbwl2cC4nsKY\"\n        ><img class=\"youtube\" :src=\"IMAGE.youtube\"\n      /></a>\n    </div>\n  </header>\n</template>\n\n<style lang=\"scss\" scoped>\n.header {\n  display: flex;\n  position: fixed;\n  width: 100%;\n  height: 75px;\n  top: 0;\n  justify-content: space-between;\n  margin-left: calc(50% - 50vw);\n  margin-right: calc(50% - 50vw);\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);\n  background-color: $white;\n  z-index: 9999;\n}\n\n.logo {\n  display: flex;\n  margin: auto 0 auto 10px;\n\n  > .logo {\n    display: flex;\n    width: 60px;\n    height: 60px;\n  }\n\n  > .takagi {\n    padding-top: 5px;\n    padding-left: 10px;\n    width: 120px;\n    height: 55px;\n  }\n}\n\n.contents {\n  margin: auto 100px auto 10px;\n\n  > .list {\n    display: flex;\n    list-style: none;\n    padding-left: 0;\n    gap: 25px;\n\n    > .title > .link {\n      color: $black;\n      text-decoration: none;\n\n      &:hover {\n        color: $blue-line;\n      }\n    }\n  }\n}\n\n.sns {\n  display: flex;\n  margin: auto 30px auto 10px;\n  gap: 15px;\n\n  > .link > .instagram {\n    margin-top: 2px;\n    width: 30px;\n    height: 30px;\n  }\n\n  > .link > .youtube {\n    width: 35px;\n    height: 35px;\n  }\n}\n\n.link {\n  color: $black;\n  text-decoration: none;\n\n  &:hover {\n    color: $blue-line;\n  }\n}\n\n.dropdown__lists {\n  display: none;\n  position: absolute;\n  margin-top: 20px;\n  width: 150px;\n  background-color: $white-blue1;\n  border-color: $black;\n  transition: 0.2s;\n\n  ::before {\n    content: \"\";\n    position: absolute;\n    pointer-events: none;\n    top: -30px;\n    left: 20%;\n    margin-left: -15px;\n    border: 15px solid transparent;\n    border-bottom: 15px solid $white-blue1;\n  }\n\n  > .dropdown__list {\n    display: flex;\n    height: 40px;\n    text-decoration: none;\n    align-items: center;\n    cursor: pointer;\n\n    &:hover {\n      display: flex;\n      background-color: $white-blue;\n    }\n\n    > .link {\n      margin-left: 5px;\n      color: $black;\n    }\n  }\n}\n\n.gnavi__list {\n  padding: 20px 0;\n\n  &:hover {\n    overflow: visible;\n\n    > .dropdown__lists {\n      overflow: visible;\n      display: block;\n      border-radius: 2px;\n    }\n  }\n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989405,
+      "end": 1717937989405,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989405,
+      "end": 1717937989406,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989406,
+      "end": 1717937989406,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989406,
+      "end": 1717937989406,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989406,
+      "end": 1717937989406,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.header{background-color:#fff;box-shadow:0 3px 6px rgba(0,0,0,.05);display:flex;height:75px;justify-content:space-between;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);position:fixed;top:0;width:100%;z-index:9999}.logo{display:flex;margin:auto 0 auto 10px}.logo>.logo{display:flex;height:60px;width:60px}.logo>.takagi{height:55px;padding-left:10px;padding-top:5px;width:120px}.contents{margin:auto 100px auto 10px}.contents>.list{display:flex;gap:25px;list-style:none;padding-left:0}.contents>.list>.title>.link{color:#000;text-decoration:none}.contents>.list>.title>.link:hover{color:#5f6fff}.sns{display:flex;gap:15px;margin:auto 30px auto 10px}.sns>.link>.instagram{height:30px;margin-top:2px;width:30px}.sns>.link>.youtube{height:35px;width:35px}.link{color:#000;text-decoration:none}.link:hover{color:#5f6fff}.dropdown__lists{background-color:#e4f7ff;border-color:#000;display:none;margin-top:20px;position:absolute;transition:.2s;width:150px}.dropdown__lists :before{border:15px solid transparent;border-bottom-color:#e4f7ff;content:\"\";left:20%;margin-left:-15px;pointer-events:none;position:absolute;top:-30px}.dropdown__lists>.dropdown__list{align-items:center;cursor:pointer;display:flex;height:40px;text-decoration:none}.dropdown__lists>.dropdown__list:hover{background-color:#d4f2ff;display:flex}.dropdown__lists>.dropdown__list>.link{color:#000;margin-left:5px}.gnavi__list{padding:20px 0}.gnavi__list:hover{overflow:visible}.gnavi__list:hover>.dropdown__lists{border-radius:2px;display:block;overflow:visible}",
+      "start": 1717937989406,
+      "end": 1717937989430,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/nogamishota/takagi/src/components/Header.vue",
+        "mappings": "AA2BA,OACE,sBAKF,UAJE,SACA,UAQF,IACE,eAGF,GACE,SACA,UC3CF,QAUE,qBDTM,CCQN,qCARA,aAGA,YAEA,8BACA,6BACA,8BANA,eAGA,MAFA,WAQA,aAGF,MACE,aACA,wBAEA,YACE,aAEA,YADA,WAIF,cAIE,YAFA,kBADA,gBAEA,YAKJ,UACE,4BAEA,gBACE,aAGA,SAFA,gBACA,eAGA,6BACE,UD1CE,CC2CF,qBAEA,mCACE,cAMR,KACE,aAEA,SADA,2BAGA,sBAGE,YAFA,eACA,WAIF,oBAEE,YADA,WAKJ,MACE,UDtEM,CCuEN,qBAEA,YACE,cAIJ,iBAKE,wBDhFY,CCiFZ,iBDpFM,CC+EN,aAEA,gBADA,kBAKA,eAHA,YAKA,yBAQE,0DAPA,WAIA,SACA,kBAHA,oBADA,kBAEA,UAOF,iCAIE,mBACA,eAJA,aACA,YACA,qBAIA,uCAEE,wBDvGO,CCsGP,aAIF,uCAEE,UDhHE,CC+GF,gBAMN,aACE,eAEA,mBACE,iBAEA,oCAGE,kBADA,cADA",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/assets/scss/global.scss",
+          "/Users/nogamishota/takagi/src/components/Header.vue"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937989430,
+      "end": 1717937989430,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989430,
+      "end": 1717937989430,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989430,
+      "end": 1717937989430,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "*[data-v-6720485a],body[data-v-6720485a]{box-sizing:border-box}*[data-v-6720485a],body[data-v-6720485a],ul[data-v-6720485a]{margin:0;padding:0}img[data-v-6720485a]{max-width:100%}br[data-v-6720485a]{margin:0;padding:0}.header[data-v-6720485a]{background-color:#fff;box-shadow:0 3px 6px rgba(0,0,0,.05);display:flex;height:75px;justify-content:space-between;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);position:fixed;top:0;width:100%;z-index:9999}.logo[data-v-6720485a]{display:flex;margin:auto 0 auto 10px}.logo>.logo[data-v-6720485a]{display:flex;height:60px;width:60px}.logo>.takagi[data-v-6720485a]{height:55px;padding-left:10px;padding-top:5px;width:120px}.contents[data-v-6720485a]{margin:auto 100px auto 10px}.contents>.list[data-v-6720485a]{display:flex;gap:25px;list-style:none;padding-left:0}.contents>.list>.title>.link[data-v-6720485a]{color:#000;text-decoration:none}.contents>.list>.title>.link[data-v-6720485a]:hover{color:#5f6fff}.sns[data-v-6720485a]{display:flex;gap:15px;margin:auto 30px auto 10px}.sns>.link>.instagram[data-v-6720485a]{height:30px;margin-top:2px;width:30px}.sns>.link>.youtube[data-v-6720485a]{height:35px;width:35px}.link[data-v-6720485a]{color:#000;text-decoration:none}.link[data-v-6720485a]:hover{color:#5f6fff}.dropdown__lists[data-v-6720485a]{background-color:#e4f7ff;border-color:#000;display:none;margin-top:20px;position:absolute;transition:.2s;width:150px}.dropdown__lists[data-v-6720485a] :before{border:15px solid transparent;border-bottom-color:#e4f7ff;content:\"\";left:20%;margin-left:-15px;pointer-events:none;position:absolute;top:-30px}.dropdown__lists>.dropdown__list[data-v-6720485a]{align-items:center;cursor:pointer;display:flex;height:40px;text-decoration:none}.dropdown__lists>.dropdown__list[data-v-6720485a]:hover{background-color:#d4f2ff;display:flex}.dropdown__lists>.dropdown__list>.link[data-v-6720485a]{color:#000;margin-left:5px}.gnavi__list[data-v-6720485a]{padding:20px 0}.gnavi__list[data-v-6720485a]:hover{overflow:visible}.gnavi__list:hover>.dropdown__lists[data-v-6720485a]{border-radius:2px;display:block;overflow:visible}",
+      "start": 1717937989430,
+      "end": 1717937989432,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/nogamishota/takagi/src/components/Header.vue",
+        "mappings": "AAAA,yCAAO,qBAAqB,CAAC,6DAAU,QAAQ,CAAC,SAAS,CAAC,qBAAI,cAAc,CAAC,oBAAG,QAAQ,CAAC,SAAS,CAAC,yBAAQ,qBAAqB,CAAC,oCAAoC,CAAC,YAAY,CAAC,WAAW,CAAC,6BAA6B,CAAC,4BAA4B,CAAC,6BAA6B,CAAC,cAAc,CAAC,KAAK,CAAC,UAAU,CAAC,YAAY,CAAC,uBAAM,YAAY,CAAC,uBAAuB,CAAC,6BAAY,YAAY,CAAC,WAAW,CAAC,UAAU,CAAC,+BAAc,WAAW,CAAC,iBAAiB,CAAC,eAAe,CAAC,WAAW,CAAC,2BAAU,2BAA2B,CAAC,iCAAgB,YAAY,CAAC,QAAQ,CAAC,eAAe,CAAC,cAAc,CAAC,8CAA6B,UAAU,CAAC,oBAAoB,CAAC,oDAAmC,aAAa,CAAC,sBAAK,YAAY,CAAC,QAAQ,CAAC,0BAA0B,CAAC,uCAAsB,WAAW,CAAC,cAAc,CAAC,UAAU,CAAC,qCAAoB,WAAW,CAAC,UAAU,CAAC,uBAAM,UAAU,CAAC,oBAAoB,CAAC,6BAAY,aAAa,CAAC,kCAAiB,wBAAwB,CAAC,iBAAiB,CAAC,YAAY,CAAC,eAAe,CAAC,iBAAiB,CAAC,cAAc,CAAC,WAAW,CAAC,0CAAyB,6BAA6B,CAAC,2BAA2B,CAAC,UAAU,CAAC,QAAQ,CAAC,iBAAiB,CAAC,mBAAmB,CAAC,iBAAiB,CAAC,SAAS,CAAC,kDAAiC,kBAAkB,CAAC,cAAc,CAAC,YAAY,CAAC,WAAW,CAAC,oBAAoB,CAAC,wDAAuC,wBAAwB,CAAC,YAAY,CAAC,wDAAuC,UAAU,CAAC,eAAe,CAAC,8BAAa,cAAc,CAAC,oCAAmB,gBAAgB,CAAC,qDAAoC,iBAAiB,CAAC,aAAa,CAAC,gBAAgB",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Header.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989432,
+      "end": 1717937989432,
+      "order": "normal"
+    }
+  ]
+}

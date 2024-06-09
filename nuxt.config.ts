@@ -16,4 +16,10 @@ export default defineNuxtConfig({
       },
     },
   },
+  router: {
+    base: "/takagi/",
+  },
+  generate: {
+    dir: "docs",
+  },
 });

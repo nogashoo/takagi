@@ -1,0 +1,277 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Footer.vue?vue&type=style&index=0&scoped=ac02e453&lang.scss?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.footer {\n  position: absolute;\n  background-color: $gray;\n  width: 100%;\n  height: 300px;\n  > .main {\n    display: flex;\n    position: absolute;\n    justify-content: center;\n    width: 100%;\n    height: 100%;\n    flex-flow: column;\n    text-align: center;\n    z-index: 10;\n\n    > .contents {\n      margin: auto;\n      > .list {\n        display: flex;\n        list-style: none;\n        margin: 0 auto;\n        gap: 25px;\n      }\n    }\n\n    > .sns {\n      display: flex;\n      margin: 20px auto;\n      gap: 15px;\n\n      > .link > .instagram {\n        margin-top: 2px;\n        width: 30px;\n        height: 30px;\n      }\n\n      > .link > .youtube {\n        width: 35px;\n        height: 35px;\n      }\n    }\n\n    > .copy-right {\n      margin-bottom: 5px;\n      font-size: 6px;\n    }\n  }\n\n  > .logo {\n    display: flex;\n    position: absolute;\n    justify-content: center;\n    width: 100%;\n    height: 100%;\n\n    > .logo-mark {\n      aspect-ratio: 1/1;\n      width: 250px;\n      height: auto;\n      opacity: 0.1;\n      z-index: 1;\n    }\n  }\n}\n\n.title {\n  margin-bottom: 10px;\n  font-weight: bold;\n}\n\n.link {\n  text-decoration: none;\n\n  &:hover {\n    color: $blue-line;\n  }\n}\n\na {\n  font-family: $base-font;\n  color: $black;\n  text-decoration: none;\n\n  &:hover {\n    color: $blue-line;\n  }\n}\n\naddress {\n  font-family: $base-font;\n}\n",
+      "start": 1717937989227,
+      "end": 1717937989227
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989227,
+      "end": 1717937989227,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989227,
+      "end": 1717937989227,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989227,
+      "end": 1717937989227,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989227,
+      "end": 1717937989227,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989227,
+      "end": 1717937989227,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.footer{background-color:#f2f2f2;height:300px}.footer,.footer>.main{position:absolute;width:100%}.footer>.main{display:flex;flex-flow:column;height:100%;justify-content:center;text-align:center;z-index:10}.footer>.main>.contents{margin:auto}.footer>.main>.contents>.list{display:flex;gap:25px;list-style:none;margin:0 auto}.footer>.main>.sns{display:flex;gap:15px;margin:20px auto}.footer>.main>.sns>.link>.instagram{height:30px;margin-top:2px;width:30px}.footer>.main>.sns>.link>.youtube{height:35px;width:35px}.footer>.main>.copy-right{font-size:6px;margin-bottom:5px}.footer>.logo{display:flex;height:100%;justify-content:center;position:absolute;width:100%}.footer>.logo>.logo-mark{aspect-ratio:1/1;height:auto;opacity:.1;width:250px;z-index:1}.title{font-weight:700;margin-bottom:10px}.link{text-decoration:none}.link:hover{color:#5f6fff}a{color:#000;font-family:\"Hiragino Kaku Gothic ProN,sans-serif\";text-decoration:none}a:hover{color:#5f6fff}address{font-family:\"Hiragino Kaku Gothic ProN,sans-serif\"}",
+      "start": 1717937989227,
+      "end": 1717937989307,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/nogamishota/takagi/src/components/Footer.vue",
+        "mappings": "AA2BA,OACE,sBAKF,UAJE,SACA,UAQF,IACE,eAGF,GACE,SACA,UC3CF,QAEE,yBAEA,aACA,sBAJA,kBAEA,WAEA,cACE,aAKA,iBADA,YAFA,uBAIA,kBACA,WAEA,wBACE,YACA,8BACE,aAGA,SAFA,gBACA,cAKJ,mBACE,aAEA,SADA,iBAGA,oCAGE,YAFA,eACA,WAIF,kCAEE,YADA,WAKJ,0BAEE,cADA,kBAKJ,cACE,aAIA,YAFA,uBADA,kBAEA,WAGA,yBACE,iBAEA,YACA,WAFA,YAGA,UAKN,OAEE,gBADA,mBAIF,MACE,qBAEA,YACE,cAIJ,EAEE,UDhFM,CC+EN,kDD9DU,CCgEV,qBAEA,QACE,cAIJ,QACE",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/assets/scss/global.scss",
+          "/Users/nogamishota/takagi/src/components/Footer.vue"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937989307,
+      "end": 1717937989307,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989307,
+      "end": 1717937989307,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989307,
+      "end": 1717937989307,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "*[data-v-ac02e453],body[data-v-ac02e453]{box-sizing:border-box}*[data-v-ac02e453],body[data-v-ac02e453],ul[data-v-ac02e453]{margin:0;padding:0}img[data-v-ac02e453]{max-width:100%}br[data-v-ac02e453]{margin:0;padding:0}.footer[data-v-ac02e453]{background-color:#f2f2f2;height:300px}.footer[data-v-ac02e453],.footer>.main[data-v-ac02e453]{position:absolute;width:100%}.footer>.main[data-v-ac02e453]{display:flex;flex-flow:column;height:100%;justify-content:center;text-align:center;z-index:10}.footer>.main>.contents[data-v-ac02e453]{margin:auto}.footer>.main>.contents>.list[data-v-ac02e453]{display:flex;gap:25px;list-style:none;margin:0 auto}.footer>.main>.sns[data-v-ac02e453]{display:flex;gap:15px;margin:20px auto}.footer>.main>.sns>.link>.instagram[data-v-ac02e453]{height:30px;margin-top:2px;width:30px}.footer>.main>.sns>.link>.youtube[data-v-ac02e453]{height:35px;width:35px}.footer>.main>.copy-right[data-v-ac02e453]{font-size:6px;margin-bottom:5px}.footer>.logo[data-v-ac02e453]{display:flex;height:100%;justify-content:center;position:absolute;width:100%}.footer>.logo>.logo-mark[data-v-ac02e453]{aspect-ratio:1/1;height:auto;opacity:.1;width:250px;z-index:1}.title[data-v-ac02e453]{font-weight:700;margin-bottom:10px}.link[data-v-ac02e453]{text-decoration:none}.link[data-v-ac02e453]:hover{color:#5f6fff}a[data-v-ac02e453]{color:#000;font-family:\"Hiragino Kaku Gothic ProN,sans-serif\";text-decoration:none}a[data-v-ac02e453]:hover{color:#5f6fff}address[data-v-ac02e453]{font-family:\"Hiragino Kaku Gothic ProN,sans-serif\"}",
+      "start": 1717937989307,
+      "end": 1717937989309,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/nogamishota/takagi/src/components/Footer.vue",
+        "mappings": "AAAA,yCAAO,qBAAqB,CAAC,6DAAU,QAAQ,CAAC,SAAS,CAAC,qBAAI,cAAc,CAAC,oBAAG,QAAQ,CAAC,SAAS,CAAC,yBAAQ,wBAAwB,CAAC,YAAY,CAAC,wDAAsB,iBAAiB,CAAC,UAAU,CAAC,+BAAc,YAAY,CAAC,gBAAgB,CAAC,WAAW,CAAC,sBAAsB,CAAC,iBAAiB,CAAC,UAAU,CAAC,yCAAwB,WAAW,CAAC,+CAA8B,YAAY,CAAC,QAAQ,CAAC,eAAe,CAAC,aAAa,CAAC,oCAAmB,YAAY,CAAC,QAAQ,CAAC,gBAAgB,CAAC,qDAAoC,WAAW,CAAC,cAAc,CAAC,UAAU,CAAC,mDAAkC,WAAW,CAAC,UAAU,CAAC,2CAA0B,aAAa,CAAC,iBAAiB,CAAC,+BAAc,YAAY,CAAC,WAAW,CAAC,sBAAsB,CAAC,iBAAiB,CAAC,UAAU,CAAC,0CAAyB,gBAAgB,CAAC,WAAW,CAAC,UAAU,CAAC,WAAW,CAAC,SAAS,CAAC,wBAAO,eAAe,CAAC,kBAAkB,CAAC,uBAAM,oBAAoB,CAAC,6BAAY,aAAa,CAAC,mBAAE,UAAU,CAAC,kDAAkD,CAAC,oBAAoB,CAAC,yBAAQ,aAAa,CAAC,yBAAQ,kDAAkD",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Footer.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \"*[data-v-ac02e453],body[data-v-ac02e453]{box-sizing:border-box}*[data-v-ac02e453],body[data-v-ac02e453],ul[data-v-ac02e453]{margin:0;padding:0}img[data-v-ac02e453]{max-width:100%}br[data-v-ac02e453]{margin:0;padding:0}.footer[data-v-ac02e453]{background-color:#f2f2f2;height:300px}.footer[data-v-ac02e453],.footer>.main[data-v-ac02e453]{position:absolute;width:100%}.footer>.main[data-v-ac02e453]{display:flex;flex-flow:column;height:100%;justify-content:center;text-align:center;z-index:10}.footer>.main>.contents[data-v-ac02e453]{margin:auto}.footer>.main>.contents>.list[data-v-ac02e453]{display:flex;gap:25px;list-style:none;margin:0 auto}.footer>.main>.sns[data-v-ac02e453]{display:flex;gap:15px;margin:20px auto}.footer>.main>.sns>.link>.instagram[data-v-ac02e453]{height:30px;margin-top:2px;width:30px}.footer>.main>.sns>.link>.youtube[data-v-ac02e453]{height:35px;width:35px}.footer>.main>.copy-right[data-v-ac02e453]{font-size:6px;margin-bottom:5px}.footer>.logo[data-v-ac02e453]{display:flex;height:100%;justify-content:center;position:absolute;width:100%}.footer>.logo>.logo-mark[data-v-ac02e453]{aspect-ratio:1/1;height:auto;opacity:.1;width:250px;z-index:1}.title[data-v-ac02e453]{font-weight:700;margin-bottom:10px}.link[data-v-ac02e453]{text-decoration:none}.link[data-v-ac02e453]:hover{color:#5f6fff}a[data-v-ac02e453]{color:#000;font-family:\\\"Hiragino Kaku Gothic ProN,sans-serif\\\";text-decoration:none}a[data-v-ac02e453]:hover{color:#5f6fff}address[data-v-ac02e453]{font-family:\\\"Hiragino Kaku Gothic ProN,sans-serif\\\"}\"",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989309,
+      "end": 1717937989309,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989310,
+      "end": 1717937989310,
+      "order": "normal"
+    }
+  ]
+}

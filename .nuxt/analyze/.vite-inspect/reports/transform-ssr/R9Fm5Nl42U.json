@@ -1,0 +1,290 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Recommend.vue?vue&type=style&index=0&scoped=a40ab0e7&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.recommend {\n  background-color: #0401a8;\n  height: 320px;\n}\n\n.title {\n  display: flex;\n  flex-flow: column;\n  text-align: center;\n  max-width: 860px;\n  margin: auto;\n\n  > .text {\n    padding-top: 20px;\n    font-size: 40px;\n    color: $white;\n    text-shadow: 2px 2px 2px #555;\n    z-index: 2;\n  }\n  > .line {\n    content: \"\";\n    width: 100%;\n    height: 21px;\n    background-color: $yellow;\n    margin-top: -40px;\n    z-index: 1;\n  }\n}\n\n.details {\n  display: flex;\n  justify-content: space-between;\n  margin: 40px auto;\n\n  > .text {\n    font-size: 32px;\n    font-weight: bold;\n    color: $white;\n    padding-left: 150px;\n  }\n  > .button {\n    margin-right: 60px;\n\n    > .reserve {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: -10px;\n      background-color: #d2fff4;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .text {\n        color: $black;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n\n    > .friend {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: 30px;\n      background-color: #06c755;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .line-logo {\n        margin-right: 20px;\n      }\n\n      > .text {\n        color: $white;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n  }\n}\n",
+      "start": 1717937989461,
+      "end": 1717937989461,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Recommend.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "/Users/nogamishota/takagi/src/components/Recommend.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n</script>\n\n<template>\n  <div class=\"recommend\">\n    <div class=\"title\">\n      <p class=\"text\">ニガテ科目を克服！成績ぐんぐんアップ！</p>\n      <div class=\"line\" />\n    </div>\n    <div class=\"details\">\n      <div class=\"text\">\n        <p>無料学習相談、体験授業実施中！</p>\n        <p>勉強のお困りごと・成績についてのことなど</p>\n        <p>お気楽にご相談ください！</p>\n      </div>\n      <div class=\"button\">\n        <NuxtLink to=\"/hoge\" class=\"reserve\"\n          ><p class=\"text\">無料学習相談&体験授業予約</p></NuxtLink\n        >\n        <a class=\"friend\" href=\"https://line.me/ti/p/xvK1fqfVqW\">\n          <img class=\"line-logo\" :src=\"IMAGE.line\" />\n          <p class=\"text\">友達追加</p>\n        </a>\n      </div>\n    </div>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.recommend {\n  background-color: #0401a8;\n  height: 320px;\n}\n\n.title {\n  display: flex;\n  flex-flow: column;\n  text-align: center;\n  max-width: 860px;\n  margin: auto;\n\n  > .text {\n    padding-top: 20px;\n    font-size: 40px;\n    color: $white;\n    text-shadow: 2px 2px 2px #555;\n    z-index: 2;\n  }\n  > .line {\n    content: \"\";\n    width: 100%;\n    height: 21px;\n    background-color: $yellow;\n    margin-top: -40px;\n    z-index: 1;\n  }\n}\n\n.details {\n  display: flex;\n  justify-content: space-between;\n  margin: 40px auto;\n\n  > .text {\n    font-size: 32px;\n    font-weight: bold;\n    color: $white;\n    padding-left: 150px;\n  }\n  > .button {\n    margin-right: 60px;\n\n    > .reserve {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: -10px;\n      background-color: #d2fff4;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .text {\n        color: $black;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n\n    > .friend {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: 30px;\n      background-color: #06c755;\n      width: 380px;\n      height: 70px;\n      text-decoration: none;\n\n      > .line-logo {\n        margin-right: 20px;\n      }\n\n      > .text {\n        color: $white;\n        font-size: 26px;\n        font-weight: bold;\n      }\n    }\n  }\n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989461,
+      "end": 1717937989461,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989461,
+      "end": 1717937989461,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989461,
+      "end": 1717937989461,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989461,
+      "end": 1717937989461,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989461,
+      "end": 1717937989461,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.recommend{background-color:#0401a8;height:320px}.title{display:flex;flex-flow:column;margin:auto;max-width:860px;text-align:center}.title>.text{color:#fff;font-size:40px;padding-top:20px;text-shadow:2px 2px 2px #555;z-index:2}.title>.line{background-color:#fff847;content:\"\";height:21px;margin-top:-40px;width:100%;z-index:1}.details{display:flex;justify-content:space-between;margin:40px auto}.details>.text{color:#fff;font-size:32px;font-weight:700;padding-left:150px}.details>.button{margin-right:60px}.details>.button>.reserve{align-items:center;background-color:#d2fff4;display:flex;height:70px;justify-content:center;margin-top:-10px;text-decoration:none;width:380px}.details>.button>.reserve>.text{color:#000;font-size:26px;font-weight:700}.details>.button>.friend{align-items:center;background-color:#06c755;display:flex;height:70px;justify-content:center;margin-top:30px;text-decoration:none;width:380px}.details>.button>.friend>.line-logo{margin-right:20px}.details>.button>.friend>.text{color:#fff;font-size:26px;font-weight:700}",
+      "start": 1717937989461,
+      "end": 1717937989480,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/nogamishota/takagi/src/components/Recommend.vue",
+        "mappings": "AA2BA,OACE,sBAKF,UAJE,SACA,UAQF,IACE,eAGF,GACE,SACA,UC3CF,WACE,yBACA,aAGF,OACE,aACA,iBAGA,YADA,gBADA,kBAIA,aAGE,UDdI,CCaJ,eADA,iBAGA,6BACA,UAEF,aAIE,wBDfK,CCYL,WAEA,YAEA,iBAHA,WAIA,UAIJ,SACE,aACA,8BACA,iBAEA,eAGE,UDpCI,CCkCJ,eACA,gBAEA,mBAEF,iBACE,kBAEA,0BAGE,mBAEA,yBAJA,aAMA,YALA,uBAEA,iBAIA,qBAFA,YAIA,gCACE,UDtDA,CCuDA,eACA,gBAIJ,yBAGE,mBAEA,yBAJA,aAMA,YALA,uBAEA,gBAIA,qBAFA,YAIA,oCACE,kBAGF,+BACE,UD1EA,CC2EA,eACA",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/assets/scss/global.scss",
+          "/Users/nogamishota/takagi/src/components/Recommend.vue"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937989480,
+      "end": 1717937989480,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989480,
+      "end": 1717937989480,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989480,
+      "end": 1717937989480,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "*[data-v-a40ab0e7],body[data-v-a40ab0e7]{box-sizing:border-box}*[data-v-a40ab0e7],body[data-v-a40ab0e7],ul[data-v-a40ab0e7]{margin:0;padding:0}img[data-v-a40ab0e7]{max-width:100%}br[data-v-a40ab0e7]{margin:0;padding:0}.recommend[data-v-a40ab0e7]{background-color:#0401a8;height:320px}.title[data-v-a40ab0e7]{display:flex;flex-flow:column;margin:auto;max-width:860px;text-align:center}.title>.text[data-v-a40ab0e7]{color:#fff;font-size:40px;padding-top:20px;text-shadow:2px 2px 2px #555;z-index:2}.title>.line[data-v-a40ab0e7]{background-color:#fff847;content:\"\";height:21px;margin-top:-40px;width:100%;z-index:1}.details[data-v-a40ab0e7]{display:flex;justify-content:space-between;margin:40px auto}.details>.text[data-v-a40ab0e7]{color:#fff;font-size:32px;font-weight:700;padding-left:150px}.details>.button[data-v-a40ab0e7]{margin-right:60px}.details>.button>.reserve[data-v-a40ab0e7]{align-items:center;background-color:#d2fff4;display:flex;height:70px;justify-content:center;margin-top:-10px;text-decoration:none;width:380px}.details>.button>.reserve>.text[data-v-a40ab0e7]{color:#000;font-size:26px;font-weight:700}.details>.button>.friend[data-v-a40ab0e7]{align-items:center;background-color:#06c755;display:flex;height:70px;justify-content:center;margin-top:30px;text-decoration:none;width:380px}.details>.button>.friend>.line-logo[data-v-a40ab0e7]{margin-right:20px}.details>.button>.friend>.text[data-v-a40ab0e7]{color:#fff;font-size:26px;font-weight:700}",
+      "start": 1717937989480,
+      "end": 1717937989481,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/nogamishota/takagi/src/components/Recommend.vue",
+        "mappings": "AAAA,yCAAO,qBAAqB,CAAC,6DAAU,QAAQ,CAAC,SAAS,CAAC,qBAAI,cAAc,CAAC,oBAAG,QAAQ,CAAC,SAAS,CAAC,4BAAW,wBAAwB,CAAC,YAAY,CAAC,wBAAO,YAAY,CAAC,gBAAgB,CAAC,WAAW,CAAC,eAAe,CAAC,iBAAiB,CAAC,8BAAa,UAAU,CAAC,cAAc,CAAC,gBAAgB,CAAC,4BAA4B,CAAC,SAAS,CAAC,8BAAa,wBAAwB,CAAC,UAAU,CAAC,WAAW,CAAC,gBAAgB,CAAC,UAAU,CAAC,SAAS,CAAC,0BAAS,YAAY,CAAC,6BAA6B,CAAC,gBAAgB,CAAC,gCAAe,UAAU,CAAC,cAAc,CAAC,eAAe,CAAC,kBAAkB,CAAC,kCAAiB,iBAAiB,CAAC,2CAA0B,kBAAkB,CAAC,wBAAwB,CAAC,YAAY,CAAC,WAAW,CAAC,sBAAsB,CAAC,gBAAgB,CAAC,oBAAoB,CAAC,WAAW,CAAC,iDAAgC,UAAU,CAAC,cAAc,CAAC,eAAe,CAAC,0CAAyB,kBAAkB,CAAC,wBAAwB,CAAC,YAAY,CAAC,WAAW,CAAC,sBAAsB,CAAC,eAAe,CAAC,oBAAoB,CAAC,WAAW,CAAC,qDAAoC,iBAAiB,CAAC,gDAA+B,UAAU,CAAC,cAAc,CAAC,eAAe",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Recommend.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1717937989481,
+      "end": 1717937989481,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989482,
+      "end": 1717937989482,
+      "order": "normal"
+    }
+  ]
+}

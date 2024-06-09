@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Navigate.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\nconst props = defineProps<Props>();\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n</script>\n\n<template>\n  <h1 class=\"top\">資料請求</h1>\n  <div class=\"nav\">\n    <div class=\"number\">\n      <img class=\"image\" :src=\"one\" />\n      <div class=\"line1\" />\n      <img class=\"image -center\" :src=\"two\" />\n      <div class=\"line2\" />\n      <img class=\"image\" :src=\"three\" />\n    </div>\n    <div class=\"state\">\n      <p class=\"text\" :class=\"{ '-active': fromDetails }\">入力</p>\n      <p class=\"text -center\" :class=\"{ '-active': fromConfirm }\">確認</p>\n      <p class=\"text\" :class=\"{ '-active': fromCompleted }\">完了</p>\n    </div>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.top {\n  padding-top: 50px;\n  position: relative;\n  text-align: center;\n\n  &::after {\n    content: \"\";\n    display: inline-block;\n    position: absolute;\n    width: 100px;\n    height: 4px;\n    bottom: -10px;\n    background-color: $blue-line;\n    left: calc(50% - 50px);\n  }\n}\n\n.nav {\n  margin-top: 50px;\n\n  > .number {\n    display: flex;\n    justify-content: center;\n    position: relative;\n    align-items: center;\n    margin: auto;\n\n    > .image {\n      z-index: 999;\n\n      &.-center {\n        position: relative;\n        padding: 0 200px;\n      }\n    }\n\n    > .line1 {\n      &::after {\n        content: \"\";\n        display: inline-block;\n        position: absolute;\n        width: 210px;\n        height: 2px;\n        background-color: $gray;\n        right: calc(50% + 10px);\n      }\n    }\n\n    > .line2 {\n      &::after {\n        content: \"\";\n        display: inline-block;\n        position: absolute;\n        width: 210px;\n        height: 2px;\n        background-color: $gray;\n        left: calc(50% + 11px);\n      }\n    }\n  }\n\n  > .state {\n    display: flex;\n    justify-content: center;\n    position: relative;\n    align-items: center;\n\n    > .text {\n      color: $gray;\n      font-weight: bold;\n      padding: 5px 0 0;\n\n      &.-active {\n        color: $black;\n      }\n\n      &.-center {\n        position: relative;\n        padding: 0 202px;\n      }\n    }\n  }\n}\n</style>\n",
+      "start": 1717937987528,
+      "end": 1717937987676,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937987676,
+      "end": 1717937987676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=script&setup=true&lang.ts\";\nimport \"/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=style&index=0&scoped=4382c15a&lang.scss\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-4382c15a\"]]);\n",
+      "start": 1717937987676,
+      "end": 1717937987691,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937987691,
+      "end": 1717937987691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937987692,
+      "end": 1717937987692,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937987692,
+      "end": 1717937987692,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937987692,
+      "end": 1717937987692,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937987692,
+      "end": 1717937987692,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937987692,
+      "end": 1717937987692,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937987692,
+      "end": 1717937987693,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937987693,
+      "end": 1717937987693,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937987694,
+      "end": 1717937987694,
+      "order": "normal"
+    }
+  ]
+}

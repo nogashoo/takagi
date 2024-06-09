@@ -1,0 +1,290 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/AccordionButton.vue?vue&type=style&index=0&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\n.accordion-button {\n  > .button {\n    display: flex;\n    justify-content: space-between;\n    background-color: $blue1;\n    width: 100%;\n    height: 50px;\n\n    &:hover {\n      cursor: pointer;\n    }\n\n    > .title {\n      margin: auto 0;\n      margin-left: 20px;\n    }\n\n    > .arrow {\n      margin: auto 0;\n      margin-right: 20px;\n\n      &.-open {\n        transform: rotate(90deg);\n      }\n    }\n  }\n\n  > .detail {\n    height: 0;\n    overflow: hidden;\n  }\n\n  &.-open > .detail {\n    margin: 0 auto;\n    height: auto;\n    width: 100%;\n    border-style: solid;\n    border-top-style: none;\n    border-color: $black;\n    border-width: 2px;\n  }\n}\n",
+      "start": 1717937989499,
+      "end": 1717937989499,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/AccordionButton.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "/Users/nogamishota/takagi/src/components/AccordionButton.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\n\ntype Props = {\n  type?: string;\n  title: string;\n};\n\ndefineProps<Props>();\n\nconst isOpen = ref(false);\n\nconst handleClick = () => {\n  isOpen.value = !isOpen.value;\n};\n</script>\n\n<template>\n  <div class=\"accordion-button\" :class=\"{ '-open': isOpen }\">\n    <button class=\"button\" @click.prevent=\"handleClick\">\n      <h2 class=\"title\">\n        {{ title }}\n      </h2>\n      <img class=\"arrow\" :class=\"{ '-open': isOpen }\" :src=\"IMAGE.arrow\" />\n    </button>\n    <div class=\"detail\">\n      <slot />\n    </div>\n  </div>\n</template>\n\n<style lang=\"scss\">\n.accordion-button {\n  > .button {\n    display: flex;\n    justify-content: space-between;\n    background-color: $blue1;\n    width: 100%;\n    height: 50px;\n\n    &:hover {\n      cursor: pointer;\n    }\n\n    > .title {\n      margin: auto 0;\n      margin-left: 20px;\n    }\n\n    > .arrow {\n      margin: auto 0;\n      margin-right: 20px;\n\n      &.-open {\n        transform: rotate(90deg);\n      }\n    }\n  }\n\n  > .detail {\n    height: 0;\n    overflow: hidden;\n  }\n\n  &.-open > .detail {\n    margin: 0 auto;\n    height: auto;\n    width: 100%;\n    border-style: solid;\n    border-top-style: none;\n    border-color: $black;\n    border-width: 2px;\n  }\n}\n</style>\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989499,
+      "end": 1717937989499,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989499,
+      "end": 1717937989499,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989499,
+      "end": 1717937989499,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989499,
+      "end": 1717937989499,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989499,
+      "end": 1717937989499,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.accordion-button>.button{background-color:#9ad5ff;display:flex;height:50px;justify-content:space-between;width:100%}.accordion-button>.button:hover{cursor:pointer}.accordion-button>.button>.title{margin:auto 0 auto 20px}.accordion-button>.button>.arrow{margin:auto 20px auto 0}.accordion-button>.button>.arrow.-open{transform:rotate(90deg)}.accordion-button>.detail{height:0;overflow:hidden}.accordion-button.-open>.detail{border:2px solid #000;border-top-style:none;height:auto;margin:0 auto;width:100%}",
+      "start": 1717937989499,
+      "end": 1717937989505,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "/Users/nogamishota/takagi/src/components/AccordionButton.vue",
+        "mappings": "AA2BA,OACE,sBAKF,UAJE,SACA,UAQF,IACE,eAGF,GACE,SACA,UC1CA,0BAGE,wBDCI,CCHJ,aAIA,YAHA,8BAEA,WAGA,gCACE,eAGF,iCAEE,wBAGF,iCAEE,wBAEA,uCACE,wBAKN,0BACE,SACA,gBAGF,gCAOE,4CALA,YADA,cAEA",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/assets/scss/global.scss",
+          "/Users/nogamishota/takagi/src/components/AccordionButton.vue"
+        ],
+        "sourcesContent": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "*,body{box-sizing:border-box}*,body,ul{margin:0;padding:0}img{max-width:100%}br{margin:0;padding:0}.accordion-button>.button{background-color:#9ad5ff;display:flex;height:50px;justify-content:space-between;width:100%}.accordion-button>.button:hover{cursor:pointer}.accordion-button>.button>.title{margin:auto 0 auto 20px}.accordion-button>.button>.arrow{margin:auto 20px auto 0}.accordion-button>.button>.arrow.-open{transform:rotate(90deg)}.accordion-button>.detail{height:0;overflow:hidden}.accordion-button.-open>.detail{border:2px solid #000;border-top-style:none;height:auto;margin:0 auto;width:100%}",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/nogamishota/takagi/src/components/AccordionButton.vue",
+        "mappings": "AAAA,OAAO,qBAAqB,CAAC,UAAU,QAAQ,CAAC,SAAS,CAAC,IAAI,cAAc,CAAC,GAAG,QAAQ,CAAC,SAAS,CAAC,0BAA0B,wBAAwB,CAAC,YAAY,CAAC,WAAW,CAAC,6BAA6B,CAAC,UAAU,CAAC,gCAAgC,cAAc,CAAC,iCAAiC,uBAAuB,CAAC,iCAAiC,uBAAuB,CAAC,uCAAuC,uBAAuB,CAAC,0BAA0B,QAAQ,CAAC,eAAe,CAAC,gCAAgC,qBAAqB,CAAC,qBAAqB,CAAC,WAAW,CAAC,aAAa,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/AccordionButton.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989505,
+      "end": 1717937989505,
+      "order": "normal"
+    }
+  ]
+}

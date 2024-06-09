@@ -1,0 +1,268 @@
+{
+  "resolvedId": "/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass } from \"vue/server-renderer\"\n\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navigate',\n  __ssrInlineRender: true,\n  props: {\n    from: {}\n  },\n  setup(__props: any) {\n\nconst props = __props;\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<!--[--><h1 class=\"top\" data-v-4382c15a>資料請求</h1><div class=\"nav\" data-v-4382c15a><div class=\"number\" data-v-4382c15a><img class=\"image\"${\n    _ssrRenderAttr(\"src\", _unref(one))\n  } data-v-4382c15a><div class=\"line1\" data-v-4382c15a></div><img class=\"image -center\"${\n    _ssrRenderAttr(\"src\", _unref(two))\n  } data-v-4382c15a><div class=\"line2\" data-v-4382c15a></div><img class=\"image\"${\n    _ssrRenderAttr(\"src\", _unref(three))\n  } data-v-4382c15a></div><div class=\"state\" data-v-4382c15a><p class=\"${\n    _ssrRenderClass([{ '-active': fromDetails.value }, \"text\"])\n  }\" data-v-4382c15a>入力</p><p class=\"${\n    _ssrRenderClass([{ '-active': fromConfirm.value }, \"text -center\"])\n  }\" data-v-4382c15a>確認</p><p class=\"${\n    _ssrRenderClass([{ '-active': fromCompleted.value }, \"text\"])\n  }\" data-v-4382c15a>完了</p></div></div><!--]-->`)\n}\n}\n\n})",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Navigate.vue"
+        ],
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\nconst props = defineProps<Props>();\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n</script>\n\n<template>\n  <h1 class=\"top\">資料請求</h1>\n  <div class=\"nav\">\n    <div class=\"number\">\n      <img class=\"image\" :src=\"one\" />\n      <div class=\"line1\" />\n      <img class=\"image -center\" :src=\"two\" />\n      <div class=\"line2\" />\n      <img class=\"image\" :src=\"three\" />\n    </div>\n    <div class=\"state\">\n      <p class=\"text\" :class=\"{ '-active': fromDetails }\">入力</p>\n      <p class=\"text -center\" :class=\"{ '-active': fromConfirm }\">確認</p>\n      <p class=\"text\" :class=\"{ '-active': fromCompleted }\">完了</p>\n    </div>\n  </div>\n</template>\n\n<style lang=\"scss\" scoped>\n.top {\n  padding-top: 50px;\n  position: relative;\n  text-align: center;\n\n  &::after {\n    content: \"\";\n    display: inline-block;\n    position: absolute;\n    width: 100px;\n    height: 4px;\n    bottom: -10px;\n    background-color: $blue-line;\n    left: calc(50% - 50px);\n  }\n}\n\n.nav {\n  margin-top: 50px;\n\n  > .number {\n    display: flex;\n    justify-content: center;\n    position: relative;\n    align-items: center;\n    margin: auto;\n\n    > .image {\n      z-index: 999;\n\n      &.-center {\n        position: relative;\n        padding: 0 200px;\n      }\n    }\n\n    > .line1 {\n      &::after {\n        content: \"\";\n        display: inline-block;\n        position: absolute;\n        width: 210px;\n        height: 2px;\n        background-color: $gray;\n        right: calc(50% + 10px);\n      }\n    }\n\n    > .line2 {\n      &::after {\n        content: \"\";\n        display: inline-block;\n        position: absolute;\n        width: 210px;\n        height: 2px;\n        background-color: $gray;\n        left: calc(50% + 11px);\n      }\n    }\n  }\n\n  > .state {\n    display: flex;\n    justify-content: center;\n    position: relative;\n    align-items: center;\n\n    > .text {\n      color: $gray;\n      font-weight: bold;\n      padding: 5px 0 0;\n\n      &.-active {\n        color: $black;\n      }\n\n      &.-center {\n        position: relative;\n        padding: 0 202px;\n      }\n    }\n  }\n}\n</style>\n"
+        ],
+        "names": [],
+        "mappings": ";;;;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACf,CAAC,CAAC;AACF;;;;;;;;;AAPwB;AAQxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAoB,CAAC;AACnC;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjE;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1717937989245,
+      "end": 1717937989245,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass } from \"vue/server-renderer\";\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Navigate\",\n  __ssrInlineRender: true,\n  props: {\n    from: {}\n  },\n  setup(__props) {\n    const props = __props;\n    const fromDetails = computed(() => props.from === \"details\");\n    const fromConfirm = computed(() => props.from === \"confirm\");\n    const fromCompleted = computed(() => props.from === \"completed\");\n    const one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\n    const two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\n    const three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<!--[--><h1 class=\"top\" data-v-4382c15a>資料請求</h1><div class=\"nav\" data-v-4382c15a><div class=\"number\" data-v-4382c15a><img class=\"image\"${_ssrRenderAttr(\"src\", _unref(one))} data-v-4382c15a><div class=\"line1\" data-v-4382c15a></div><img class=\"image -center\"${_ssrRenderAttr(\"src\", _unref(two))} data-v-4382c15a><div class=\"line2\" data-v-4382c15a></div><img class=\"image\"${_ssrRenderAttr(\"src\", _unref(three))} data-v-4382c15a></div><div class=\"state\" data-v-4382c15a><p class=\"${_ssrRenderClass([{ \"-active\": fromDetails.value }, \"text\"])}\" data-v-4382c15a>入力</p><p class=\"${_ssrRenderClass([{ \"-active\": fromConfirm.value }, \"text -center\"])}\" data-v-4382c15a>確認</p><p class=\"${_ssrRenderClass([{ \"-active\": fromCompleted.value }, \"text\"])}\" data-v-4382c15a>完了</p></div></div><!--]-->`);\n    };\n  }\n});\n",
+      "start": 1717937989247,
+      "end": 1717937989396,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/nogamishota/takagi/src/components/Navigate.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass } from \"vue/server-renderer\"\n\nimport { IMAGE } from \"~/common/image\";\nimport { computed } from \"vue\";\n\ntype Props = {\n  from: string;\n};\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navigate',\n  __ssrInlineRender: true,\n  props: {\n    from: {}\n  },\n  setup(__props: any) {\n\nconst props = __props;\n\nconst fromDetails = computed(() => props.from === \"details\");\nconst fromConfirm = computed(() => props.from === \"confirm\");\nconst fromCompleted = computed(() => props.from === \"completed\");\n\nconst one = fromDetails.value ? IMAGE.black_one : IMAGE.white_one;\nconst two = fromConfirm.value ? IMAGE.black_two : IMAGE.white_two;\nconst three = fromCompleted.value ? IMAGE.black_three : IMAGE.white_three;\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<!--[--><h1 class=\"top\" data-v-4382c15a>資料請求</h1><div class=\"nav\" data-v-4382c15a><div class=\"number\" data-v-4382c15a><img class=\"image\"${\n    _ssrRenderAttr(\"src\", _unref(one))\n  } data-v-4382c15a><div class=\"line1\" data-v-4382c15a></div><img class=\"image -center\"${\n    _ssrRenderAttr(\"src\", _unref(two))\n  } data-v-4382c15a><div class=\"line2\" data-v-4382c15a></div><img class=\"image\"${\n    _ssrRenderAttr(\"src\", _unref(three))\n  } data-v-4382c15a></div><div class=\"state\" data-v-4382c15a><p class=\"${\n    _ssrRenderClass([{ '-active': fromDetails.value }, \"text\"])\n  }\" data-v-4382c15a>入力</p><p class=\"${\n    _ssrRenderClass([{ '-active': fromConfirm.value }, \"text -center\"])\n  }\" data-v-4382c15a>確認</p><p class=\"${\n    _ssrRenderClass([{ '-active': fromCompleted.value }, \"text\"])\n  }\" data-v-4382c15a>完了</p></div></div><!--]-->`)\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,cAAc;AAChC,SAAS,iBAAiB,gBAAgB,kBAAkB,uBAAuB;AAEnF,SAAS,aAAa;AACtB,SAAS,gBAAgB;AAOzB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,OAAO;AAAA,IACL,MAAM,CAAC;AAAA,EACT;AAAA,EACA,MAAM,SAAc;AAEtB,UAAM,QAAQ;AAEd,UAAM,cAAc,SAAS,MAAM,MAAM,SAAS,SAAS;AAC3D,UAAM,cAAc,SAAS,MAAM,MAAM,SAAS,SAAS;AAC3D,UAAM,gBAAgB,SAAS,MAAM,MAAM,SAAS,WAAW;AAE/D,UAAM,MAAM,YAAY,QAAQ,MAAM,YAAY,MAAM;AACxD,UAAM,MAAM,YAAY,QAAQ,MAAM,YAAY,MAAM;AACxD,UAAM,QAAQ,cAAc,QAAQ,MAAM,cAAc,MAAM;AAE9D,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,2IACJ,eAAe,OAAO,OAAO,GAAG,CAAC,CACnC,uFACE,eAAe,OAAO,OAAO,GAAG,CAAC,CACnC,+EACE,eAAe,OAAO,OAAO,KAAK,CAAC,CACrC,uEACE,gBAAgB,CAAC,EAAE,WAAW,YAAY,MAAM,GAAG,MAAM,CAAC,CAC5D,qCACE,gBAAgB,CAAC,EAAE,WAAW,YAAY,MAAM,GAAG,cAAc,CAAC,CACpE,qCACE,gBAAgB,CAAC,EAAE,WAAW,cAAc,MAAM,GAAG,MAAM,CAAC,CAC9D,8CAA8C;AAAA,IAChD;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717937989396,
+      "end": 1717937989396,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717937989397,
+      "end": 1717937989397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989397,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717937989397,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717937989398,
+      "end": 1717937989398,
+      "order": "normal"
+    }
+  ]
+}
